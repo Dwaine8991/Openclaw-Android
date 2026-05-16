@@ -1,0 +1,16 @@
+﻿[openclaw-dla-perf] id=1778911060289-8cf707 phase=request_received t=1778911060290 elapsedMs=1 path=/v1/v1/messages openAi=false stream=true
+[openclaw-dla-perf] id=1778911060289-8cf707 phase=prompt_built t=1778911060304 elapsedMs=15 promptChars=1116 maxTokens=256
+[openclaw-dla-perf] id=1778911060289-8cf707 phase=persistent_server_starting t=1778911060739 elapsedMs=450 bin=/data/local/tmp/llm_sdk/openclaw-qwen-dla-server port=18082
+[openclaw-dla-server] PowerHAL Enable
+[openclaw-dla-server] Begin model init...
+[openclaw-dla-server] Done model init. (Time taken: 3.00551s)
+[openclaw-dla-server] Initialized HuggingFace tokenizer.
+OpenClaw Qwen DLA server tokenizer vocab size: 151669
+openclaw-qwen-dla-server listening on 127.0.0.1:18082
+[openclaw-dla-perf] id=1778911060289-8cf707 phase=persistent_server_ready t=1778911065979 elapsedMs=5690 pid=20253
+[openclaw-dla-perf] id=1778911060289-8cf707 phase=persistent_request_started t=1778911065979 elapsedMs=5690 stream=true
+[openclaw-dla-server] Hot swapping to 1t model...
+[openclaw-dla-perf] id=1778911060289-8cf707 phase=persistent_first_delta t=1778911071374 elapsedMs=11085 rawChars=165
+[openclaw-dla-server] Hot swapping to 128t model...
+[openclaw-dla-perf] id=1778911060289-8cf707 phase=persistent_completed t=1778911087465 elapsedMs=27176 streamedChars=267
+[openclaw-dla-perf] id=1778911060289-8cf707 phase=request_completed t=1778911087474 elapsedMs=27185 mode=persistent_stream streamedChars=267

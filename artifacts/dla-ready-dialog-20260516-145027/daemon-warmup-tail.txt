@@ -1,0 +1,35 @@
+﻿
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:32:[openclaw-dla-perf] id=warmup-1778913585626 phase=persistent_s
+erver_ready t=1778913591116 elapsedMs=5490 pid=23637
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:33:[openclaw-dla-perf] id=warmup-1778913585626 phase=warmup_compl
+eted t=1778913591117 elapsedMs=5491 generated=false
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:36:[openclaw-dla-perf] id=warmup-1778913624784 phase=persistent_s
+erver_ready t=1778913624808 elapsedMs=24 reused=true
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:37:[openclaw-dla-perf] id=warmup-1778913624784 phase=warmup_compl
+eted t=1778913624808 elapsedMs=24 generated=false
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:38:[openclaw-dla-perf] id=warmup-1778913624776 phase=persistent_s
+erver_ready t=1778913624822 elapsedMs=46 reused=true
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:39:[openclaw-dla-perf] id=warmup-1778913624776 phase=warmup_compl
+eted t=1778913624823 elapsedMs=47 generated=false
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:41:[openclaw-dla-perf] id=warmup-1778913624885 phase=persistent_s
+erver_ready t=1778913624899 elapsedMs=14 reused=true
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:42:[openclaw-dla-perf] id=warmup-1778913624885 phase=warmup_compl
+eted t=1778913624900 elapsedMs=15 generated=false
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:53:[openclaw-dla-perf] id=warmup-1778914202850 phase=persistent_s
+erver_ready t=1778914208346 elapsedMs=5496 pid=24179
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:54:[openclaw-dla-perf] id=warmup-1778914202850 phase=warmup_compl
+eted t=1778914208347 elapsedMs=5497 generated=false
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:57:[openclaw-dla-perf] id=warmup-1778914230112 phase=persistent_s
+erver_ready t=1778914230129 elapsedMs=17 reused=true
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:58:[openclaw-dla-perf] id=warmup-1778914230112 phase=warmup_compl
+eted t=1778914230130 elapsedMs=18 generated=false
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:59:[openclaw-dla-perf] id=warmup-1778914230094 phase=persistent_s
+erver_ready t=1778914230145 elapsedMs=51 reused=true
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:60:[openclaw-dla-perf] id=warmup-1778914230094 phase=warmup_compl
+eted t=1778914230145 elapsedMs=51 generated=false
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:62:[openclaw-dla-perf] id=warmup-1778914230149 phase=persistent_s
+erver_ready t=1778914230176 elapsedMs=27 reused=true
+artifacts\dla-ready-dialog-20260516-145027\daemon.log:63:[openclaw-dla-perf] id=warmup-1778914230149 phase=warmup_compl
+eted t=1778914230176 elapsedMs=27 generated=false
+
+

@@ -1,0 +1,9 @@
+﻿[openclaw-dla-perf] id=warmup-1778914515496 phase=warmup_start t=1778914515496 elapsedMs=0 reason=http generate=false
+[openclaw-dla-perf] id=warmup-1778914515508 phase=warmup_start t=1778914515508 elapsedMs=0 reason=http generate=false
+[openclaw-dla-perf] id=warmup-1778914515496 phase=persistent_server_ready t=1778914515525 elapsedMs=29 reused=true
+[openclaw-dla-perf] id=warmup-1778914515496 phase=warmup_completed t=1778914515526 elapsedMs=30 generated=false
+[openclaw-dla-perf] id=warmup-1778914515508 phase=persistent_server_ready t=1778914515551 elapsedMs=43 reused=true
+[openclaw-dla-perf] id=warmup-1778914515508 phase=warmup_completed t=1778914515552 elapsedMs=44 generated=false
+[openclaw-dla-perf] id=warmup-1778914515581 phase=warmup_start t=1778914515581 elapsedMs=0 reason=http generate=false
+[openclaw-dla-perf] id=warmup-1778914515581 phase=persistent_server_ready t=1778914515600 elapsedMs=19 reused=true
+[openclaw-dla-perf] id=warmup-1778914515581 phase=warmup_completed t=1778914515601 elapsedMs=20 generated=false

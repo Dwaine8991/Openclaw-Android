@@ -1,0 +1,8 @@
+﻿
+artifacts\dla-app-prewarm-cold-20260516-143153\android-dla-bridge.log:2:[openclaw-dla-perf] id=warmup-1778913117781 pha
+se=warmup_start t=1778913117782 elapsedMs=1 reason=startup generate=false
+artifacts\dla-app-prewarm-cold-20260516-143153\android-dla-bridge.log:4:[openclaw-dla-perf] id=warmup-1778913117781 pha
+se=persistent_server_starting t=1778913118141 elapsedMs=360 bin=/data/local/tmp/llm_sdk/openclaw-qwen-dla-server port=1
+8082
+
+

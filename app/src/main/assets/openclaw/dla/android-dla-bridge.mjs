@@ -11,7 +11,7 @@ const promptDir = process.env.OPENCLAW_DLA_PROMPT_DIR ?? llmDir;
 const config = process.env.OPENCLAW_DLA_CONFIG ?? "config_np8-qwen3-1.7b.yaml";
 const modelId = process.env.OPENCLAW_DLA_MODEL_ID ?? "qwen3-1.7b-dla";
 const preformatter = process.env.OPENCLAW_DLA_PREFORMATTER ?? "Qwen3NoInputNoThink";
-const defaultMaxTokens = Number(process.env.OPENCLAW_DLA_MAX_TOKENS ?? "256");
+const defaultMaxTokens = Number(process.env.OPENCLAW_DLA_MAX_TOKENS ?? "384");
 const maxInputChars = Number(process.env.OPENCLAW_DLA_MAX_INPUT_CHARS ?? "2800");
 const maxUserChars = Number(process.env.OPENCLAW_DLA_MAX_USER_CHARS ?? "1600");
 const maxProductContextChars = Number(process.env.OPENCLAW_DLA_MAX_PRODUCT_CONTEXT_CHARS ?? "900");
@@ -404,6 +404,24 @@ function promptFromOpenAi(body) {
   return buildDlaPrompt(body.messages ?? []);
 }
 
+function requestedMaxTokensFromBody(body) {
+  const requested = Number(body.max_tokens ?? body.max_completion_tokens ?? defaultMaxTokens);
+  if (!Number.isFinite(requested)) return defaultMaxTokens;
+  return Math.max(1, Math.min(requested, defaultMaxTokens));
+}
+
+function dynamicMaxTokensForPrompt(prompt, requestedMaxTokens) {
+  const cap = Math.max(1, Math.min(Number(requestedMaxTokens) || defaultMaxTokens, defaultMaxTokens));
+  const compact = compactText(prompt);
+  if (compact.includes("VOICE_SHORT_REPLY")) return Math.min(cap, 224);
+  if (compact.includes("Specific model reference for")) return Math.min(cap, 256);
+  if (compact.includes("MANDATORY_PRODUCT_LINE_OVERVIEW")) return Math.min(cap, 384);
+  if (compact.length < 360 && !/[?锛焅？].*(鍙傛暟|瑙勬牸|瀵规瘮|璇︾粏|product|spec|compare)/i.test(compact)) {
+    return Math.min(cap, 128);
+  }
+  return cap;
+}
+
 function parseDlaOutput(output) {
   const full = output.match(/\[Full Response\]\s*([\s\S]*?)(?:\n\[Latency\]|\r?\n?$)/);
   if (full) return full[1].trim();
@@ -438,6 +456,7 @@ function callPersistentServerStream(prompt, maxTokens, res, requestId, startedAt
     let output = "";
     let streamed = "";
     let sseBuffer = "";
+    let firstByteLogged = false;
     let firstDeltaLogged = false;
     let settled = false;
     const fail = err => {
@@ -460,12 +479,17 @@ function callPersistentServerStream(prompt, maxTokens, res, requestId, startedAt
       nativeRes => {
         const isSse = String(nativeRes.headers["content-type"] ?? "").includes("text/event-stream");
         const ok = (nativeRes.statusCode ?? 0) >= 200 && (nativeRes.statusCode ?? 0) < 300;
+        perfLog(requestId, "native_response_headers", startedAt, `status=${nativeRes.statusCode ?? 0} sse=${isSse}`);
         if (ok) stream = beginAnthropicStream(res);
         nativeRes.setEncoding("utf8");
         nativeRes.setTimeout(persistentServerRequestTimeoutMs, () => {
           req.destroy(new Error("persistent_server_timeout"));
         });
         nativeRes.on("data", chunk => {
+          if (!firstByteLogged) {
+            firstByteLogged = true;
+            perfLog(requestId, "persistent_first_byte", startedAt, `chunkChars=${chunk.length}`);
+          }
           output += chunk;
           if (isSse) {
             sseBuffer += chunk;
@@ -521,6 +545,7 @@ function callPersistentServerStream(prompt, maxTokens, res, requestId, startedAt
     req.on("error", fail);
     req.write(payload);
     req.end();
+    perfLog(requestId, "persistent_request_sent", startedAt, `payloadBytes=${Buffer.byteLength(payload)}`);
   });
 }
 
@@ -881,12 +906,10 @@ async function handleGenerate(req, res, body, openAi) {
   const requestId = `${startedAt}-${Math.random().toString(16).slice(2, 8)}`;
   perfLog(requestId, "request_received", startedAt, `path=${req.url ?? ""} openAi=${openAi} stream=${!!body.stream}`);
   try {
-    const maxTokens = Math.max(
-      1,
-      Math.min(Number(body.max_tokens ?? body.max_completion_tokens ?? defaultMaxTokens), defaultMaxTokens),
-    );
     const prompt = openAi ? promptFromOpenAi(body) : promptFromAnthropic(body);
-    perfLog(requestId, "prompt_built", startedAt, `promptChars=${prompt.length} maxTokens=${maxTokens}`);
+    const requestedMaxTokens = requestedMaxTokensFromBody(body);
+    const maxTokens = dynamicMaxTokensForPrompt(prompt, requestedMaxTokens);
+    perfLog(requestId, "prompt_built", startedAt, `promptChars=${prompt.length} requestedMaxTokens=${requestedMaxTokens} maxTokens=${maxTokens}`);
     const wantsAnthropicStream = !!body.stream && !openAi;
     const canUsePersistent = persistentServerEnabled() && (!wantsAnthropicStream || persistentStreamEnabled());
     if (persistentServerEnabled() && wantsAnthropicStream && !persistentStreamEnabled()) {

@@ -1,0 +1,1 @@
+﻿round=2 curl_exit=0 elapsed_ms=13477

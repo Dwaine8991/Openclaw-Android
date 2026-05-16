@@ -1,0 +1,80 @@
+Load: 21.0 / 20.15 / 19.08
+CPU usage from 266821ms to 65531ms ago (2026-05-16 15:58:26.876 to 2026-05-16 16:01:48.166):
+  210% 29143/io.github.openclawcn.app: 128% user + 81% kernel / faults: 2999070 minor 52 major
+  29% 704/surfaceflinger: 16% user + 13% kernel / faults: 16 minor
+  29% 5612/app_process: 16% user + 13% kernel / faults: 14750 minor 3 major
+  16% 24745/kworker/u17:4+AWINIC WQ: 0% user + 16% kernel
+  16% 954/hyb_vpud-64b: 0.9% user + 15% kernel
+  14% 664/android.hardware.graphics.composer@3.2-service: 4.3% user + 10% kernel
+  14% 21567/kworker/u17:3-ged_notify_sw_vsync: 0% user + 14% kernel
+  14% 24092/kworker/u17:2-mali_jd: 0% user + 14% kernel
+  14% 29203/clawdbot-gateway: 13% user + 0.9% kernel / faults: 52650 minor 62 major
+  14% 963/media.swcodec: 9.8% user + 4.2% kernel / faults: 8505 minor
+  12% 666/android.hardware.media.c2@1.2-mediatek-64b: 4.4% user + 7.6% kernel / faults: 1 minor 1 major
+  10% 27572/kworker/u17:1+AWINIC WQ: 0% user + 10% kernel
+  10% 927/mobile_log_d: 1.8% user + 8.9% kernel / faults: 38350 minor
+  8.2% 27999/kworker/u17:0+ged_notify_sw_vsync: 0% user + 8.2% kernel
+  5.5% 6181/adbd: 1.3% user + 4.1% kernel / faults: 1099 minor
+  5.3% 691/audioserver: 3.3% user + 1.9% kernel / faults: 238 minor 14 major
+  3.5% 656/android.hardware.audio.service.mediatek: 0.7% user + 2.7% kernel / faults: 1 minor
+  3.3% 459/logd: 0.9% user + 2.4% kernel / faults: 1732 minor
+  1.6% 1085/system_server: 1% user + 0.6% kernel / faults: 4534 minor 105 major
+  1.5% 1/init: 0% user + 1.4% kernel / faults: 2661 minor
+  1.5% 29117/kworker/u16:4-ged_fence: 0% user + 1.5% kernel / faults: 16 minor
+  1.4% 1510/com.android.networkstack.process: 1.1% user + 0.2% kernel / faults: 9136 minor
+  1.3% 29046/kworker/u16:2-cmdq_pkt_destroy_wq: 0% user + 1.3% kernel / faults: 17 minor
+  1.2% 28354/kworker/u16:8-devfreq_wq: 0% user + 1.2% kernel / faults: 22 minor
+  1.2% 25303/kworker/u16:5+usb_audio_wq: 0% user + 1.2% kernel / faults: 9 minor
+  1.2% 253/signal_fence: 0% user + 1.2% kernel
+  1.1% 164/irq/281-11201000.usb0: 0% user + 1.1% kernel
+  0.7% 244/dis_ki-0: 0% user + 0.7% kernel
+  0.7% 13/ksoftirqd/0: 0% user + 0.7% kernel
+  0.4% 14/rcu_preempt: 0% user + 0.4% kernel
+  0.2% 68/kcompactd0: 0% user + 0.2% kernel
+  0.2% 1973/com.android.providers.media.module: 0% user + 0.1% kernel / faults: 56 minor 42 major
+  0.2% 243/mtk_drm_disp_idlemgr-0: 0% user + 0.2% kernel
+  0.1% 18/migration/0: 0% user + 0.1% kernel
+  0.1% 683/android.hardware.thermal-service.mediatek: 0% user + 0.1% kernel / faults: 4 minor
+  0.1% 47/migration/5: 0% user + 0.1% kernel
+  0.1% 777/wlan_assistant: 0% user + 0.1% kernel
+  0.1% 168/cmdq_irq_thread: 0% user + 0.1% kernel
+  0.1% 887/thermal_core: 0% user + 0.1% kernel / faults: 34 minor
+  0.1% 29/migration/2: 0% user + 0.1% kernel
+  0.1% 1450/com.android.systemui: 0% user + 0% kernel / faults: 460 minor 2 major
+  0.1% 23/migration/1: 0% user + 0.1% kernel
+  0.1% 35/migration/3: 0% user + 0.1% kernel
+  0.1% 41/migration/4: 0% user + 0.1% kernel
+  0.1% 78/kswapd0: 0% user + 0.1% kernel
+  0% 28081/kworker/0:4H: 0% user + 0% kernel
+  0% 172/cmdq_irq_thread: 0% user + 0% kernel
+  0% 461/servicemanager: 0% user + 0% kernel
+  0% 1553/com.mediatek.smartratswitch: 0% user + 0% kernel / faults: 47 minor
+  0% 29087/kworker/7:1-events: 0% user + 0% kernel
+  0% 509/android.system.suspend-service: 0% user + 0% kernel / faults: 9 minor 55 major
+  0% 2388/trace: 0% user + 0% kernel
+  0% 28357/com.android.permissioncontroller: 0% user + 0% kernel / faults: 213 minor 475 major
+  0% 28729/kworker/u16:1-firmware:scmi: 0% user + 0% kernel
+  0% 19171/kworker/1:2-events_freezable_power_: 0% user + 0% kernel
+  0% 28733/kworker/4:0-mm_percpu_wq: 0% user + 0% kernel
+  0% 462/hwservicemanager: 0% user + 0% kernel
+  0% 657/android.hardware.camera.provider-V1-external-service: 0% user + 0% kernel
+  0% 7782/kworker/0:2-mm_percpu_wq: 0% user + 0% kernel
+  0% 28643/kworker/6:1-mm_percpu_wq: 0% user + 0% kernel
+  0% 640/netd: 0% user + 0% kernel / faults: 16 minor 1 major
+  0% 908/vendor.mediatek.hardware.mtkpower-service.mediatek: 0% user + 0% kernel
+  0% 21488/kworker/2:2-mm_percpu_wq: 0% user + 0% kernel
+  0% 24082/kworker/3:2-events: 0% user + 0% kernel
+  0% 25570/kworker/5:0-events: 0% user + 0% kernel
+  0% 680/android.hardware.memtrack-service.mediatek: 0% user + 0% kernel
+  0% 2376/netdiag: 0% user + 0% kernel
+  0% 24440/kworker/1:0H-kblockd: 0% user + 0% kernel
+  0% 60/ksoftirqd/7: 0% user + 0% kernel
+  0% 529/f2fs_ckpt-254:52: 0% user + 0% kernel
+  0% 928/netdiag: 0% user + 0% kernel
+  0% 5393/kworker/u16:3-events_unbound: 0% user + 0% kernel
+  0% 28083/kworker/6:0H: 0% user + 0% kernel
+  0% 28337/kworker/4:0H-kblockd: 0% user + 0% kernel
+  0% 28348/kworker/7:0H-kverityd: 0% user + 0% kernel
+  0% 24/ksoftirqd/1: 0% user + 0% kernel
+  0% 48/ksoftirqd/5: 0% user + 0% kernel
+  0% 54/ksoftirqd/6: 0% user + 0% kernel

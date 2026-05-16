@@ -1,0 +1,10 @@
+﻿ui-0.xml: Starting local gateway
+ui-1.xml: DLA ready, Local DLA server warmup is complete, OK
+ui-2.xml: DLA ready, Local DLA server warmup is complete, OK
+ui-3.xml: DLA ready, Local DLA server warmup is complete, OK
+ui-4.xml: DLA ready, Local DLA server warmup is complete, OK
+ui-5.xml: Starting local gateway
+ui-6.xml: Starting local gateway
+ui-7.xml: Starting local gateway
+ui-8.xml: Starting local gateway
+ui-9.xml: Starting local gateway

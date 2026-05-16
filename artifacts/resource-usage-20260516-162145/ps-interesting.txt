@@ -1,0 +1,38 @@
+﻿
+root           181     2          0      0 mtk_deferred_free_thread 0 S [dmabuf-deferred-free-worker]
+root           243     2          0      0 msleep_interruptible 0 S [mtk_drm_disp_idlemgr-0]
+root           244     2          0      0 mtk_drm_async_kick_idlemgr_thread 0 S [dis_ki-0]
+root           245     2          0      0 mtk_crtc_enable_vblank_thread 0 S [enable_vblank]
+root           246     2          0      0 mtk_drm_cwb_monitor_thread 0 S [mtk_drm_cwb]
+root           247     2          0      0 mtk_drm_fake_vsync_kthread 0 S [mtk_drm_fake_vsync:0]
+root           248     2          0      0 _mtk_crtc_check_trigger 0 S [ddp_trig]
+root           249     2          0      0 _mtk_crtc_check_trigger_delay 0 S [ddp_trig_d]
+root           250     2          0      0 _mtk_crtc_cmdq_retrig 0 S [ddp_cmdq_trig]
+root           251     2          0      0 mtk_drm_pf_release_thread 0 S [pf_release_thread]
+root           252     2          0      0 mtk_drm_sf_pf_release_thread 0 S [sf_pf_release_thread]
+root           253     2          0      0 mtk_drm_signal_fence_worker_kthread 0 S [signal_fence]
+root           254     2          0      0 mtk_crtc_paper_texture_thread 0 S [paper_texture]
+root           255     2          0      0 mtk_drm_mode_switch_thread 0 S [mode_switch]
+root           260     2          0      0 mtk_drm_pf_release_thread 0 S [pf_release_thread]
+root           261     2          0      0 mtk_drm_sf_pf_release_thread 0 S [sf_pf_release_thread]
+root           262     2          0      0 mtk_drm_signal_fence_worker_kthread 0 S [signal_fence]
+root           263     2          0      0 mtk_drm_mode_switch_thread 0 S [mode_switch]
+root           266     2          0      0 mtk_aal_sof_irq_trigger 0 S [aal_sof_0]
+root           427     2          0      0 rescuer_thread      0 I [mtk-vcodec-dec]
+root           429     2          0      0 rescuer_thread      0 I [mtk-vcodec-enc]
+root           440     2          0      0 irq_wait_for_interrupt 0 S [irq/386-19024000.apusys-hw-logger]
+root           442     2          0      0 rescuer_thread      0 I [apupwr]
+root           443     2          0      0 irq_wait_for_interrupt 0 S [irq/387-apu_ipi]
+root           444     2          0      0 irq_wait_for_interrupt 0 S [irq/388-apusys_ce_excep]
+root           445     2          0      0 irq_wait_for_interrupt 0 S [irq/389-apusys_wdt]
+root           511     1   10913996   3372 binder_thread_read  0 S android.hardware.boot-service.mtk
+system         681     1   11052272   2960 binder_thread_read  0 S vendor.mediatek.hardware.mtkpower_applist-service.me
+diatek
+root           908     1   10969932   2700 futex_wait_queue    0 S vendor.mediatek.hardware.mtkpower-service.mediatek
+system       22800     1   11154040   4092 binder_thread_read  0 S android.hardware.neuralnetworks-shim-service-mtk
+root         27651     1   11984192  19128 ep_poll             0 S libopenclaw_node.so
+u0_a123      30562   641   20220296 1580484 ep_poll            0 S io.github.openclawcn.app
+u0_a123      30620     1   11890240  18732 ep_poll             0 S openclaw-cn
+root         30884 27651   14732552 113104 inet_csk_accept     0 S openclaw-qwen-dla-server
+
+

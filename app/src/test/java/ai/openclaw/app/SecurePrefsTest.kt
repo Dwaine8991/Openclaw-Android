@@ -216,7 +216,7 @@ class SecurePrefsTest {
     assertTrue(defaultModels.containsKey("${LocalModelProviderConfig.DLA_PROVIDER_ID}/${LocalModelProviderConfig.DLA_MODEL_ID}"))
     assertEquals(LocalModelProviderConfig.DLA_BASE_URL, dlaProvider["baseUrl"].toString().trim('"'))
     assertEquals(32_768, dlaModel["contextWindow"].toString().toInt())
-    assertEquals(256, dlaModel["maxTokens"].toString().toInt())
+    assertEquals(384, dlaModel["maxTokens"].toString().toInt())
     assertEquals(
       "${LocalModelProviderConfig.DLA_PROVIDER_ID}/${LocalModelProviderConfig.DLA_MODEL_ID}",
       defaults["model"]!!.jsonObject["primary"].toString().trim('"'),

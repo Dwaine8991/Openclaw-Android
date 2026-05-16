@@ -66,7 +66,7 @@ class TalkModeManager internal constructor(
     private const val maxCachedRunCompletions = 128
     private const val useMnnTtsForInteractiveReplies = true
     private const val useGatewayTtsForInteractiveReplies = false
-    private const val mnnTtsWholeMaxChars = 36
+    private const val mnnTtsWholeMaxChars = 18
     private const val ttsInterruptStartupGraceMs = 700L
   }
 

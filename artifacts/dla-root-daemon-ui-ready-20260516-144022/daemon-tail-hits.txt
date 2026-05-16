@@ -1,0 +1,32 @@
+﻿
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:23:OpenClaw DLA bridge listening on 127.0.0.1:8081
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:24:[openclaw-dla-perf] id=warmup-1778913585626 phase=warm
+up_start t=1778913585626 elapsedMs=0 reason=startup generate=false
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:25:[openclaw-dla-perf] id=warmup-1778913585626 phase=pers
+istent_server_starting t=1778913585886 elapsedMs=260 bin=/data/local/tmp/llm_sdk/openclaw-qwen-dla-server port=18082
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:31:[openclaw-dla-server] openclaw-qwen-dla-server listeni
+ng on 127.0.0.1:18082
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:32:[openclaw-dla-perf] id=warmup-1778913585626 phase=pers
+istent_server_ready t=1778913591116 elapsedMs=5490 pid=23637
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:33:[openclaw-dla-perf] id=warmup-1778913585626 phase=warm
+up_completed t=1778913591117 elapsedMs=5491 generated=false
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:34:[openclaw-dla-perf] id=warmup-1778913624776 phase=warm
+up_start t=1778913624776 elapsedMs=0 reason=http generate=false
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:35:[openclaw-dla-perf] id=warmup-1778913624784 phase=warm
+up_start t=1778913624784 elapsedMs=0 reason=http generate=false
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:36:[openclaw-dla-perf] id=warmup-1778913624784 phase=pers
+istent_server_ready t=1778913624808 elapsedMs=24 reused=true
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:37:[openclaw-dla-perf] id=warmup-1778913624784 phase=warm
+up_completed t=1778913624808 elapsedMs=24 generated=false
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:38:[openclaw-dla-perf] id=warmup-1778913624776 phase=pers
+istent_server_ready t=1778913624822 elapsedMs=46 reused=true
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:39:[openclaw-dla-perf] id=warmup-1778913624776 phase=warm
+up_completed t=1778913624823 elapsedMs=47 generated=false
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:40:[openclaw-dla-perf] id=warmup-1778913624885 phase=warm
+up_start t=1778913624885 elapsedMs=0 reason=http generate=false
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:41:[openclaw-dla-perf] id=warmup-1778913624885 phase=pers
+istent_server_ready t=1778913624899 elapsedMs=14 reused=true
+artifacts\dla-root-daemon-ui-ready-20260516-144022\daemon.log:42:[openclaw-dla-perf] id=warmup-1778913624885 phase=warm
+up_completed t=1778913624900 elapsedMs=15 generated=false
+
+

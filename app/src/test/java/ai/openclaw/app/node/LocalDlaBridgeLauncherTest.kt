@@ -17,7 +17,7 @@ class LocalDlaBridgeLauncherTest {
 
     assertTrue(script.contains("android-dla-bridge.mjs"))
     assertTrue(script.contains("config_np8-qwen3-1.7b.yaml"))
-    assertTrue(script.contains("OPENCLAW_DLA_MAX_TOKENS=\"256\""))
+    assertTrue(script.contains("OPENCLAW_DLA_MAX_TOKENS=\"384\""))
     assertTrue(script.contains("OPENCLAW_DLA_MIN_AVAILABLE_KB"))
     assertTrue(script.contains("OPENCLAW_DLA_APP_PSS_LIMIT_KB"))
     assertTrue(script.contains("OPENCLAW_DLA_WORKER_PID_FILE"))
@@ -64,6 +64,10 @@ class LocalDlaBridgeLauncherTest {
     assertTrue(asset.contains("persistentStreamEnabled"))
     assertTrue(asset.contains("persistent_stream_skipped"))
     assertTrue(asset.contains("fallback=short_lived_worker"))
+    assertTrue(asset.contains("dynamicMaxTokensForPrompt"))
+    assertTrue(asset.contains("requestedMaxTokens"))
+    assertTrue(asset.contains("native_response_headers"))
+    assertTrue(asset.contains("persistent_first_byte"))
   }
 
   @Test

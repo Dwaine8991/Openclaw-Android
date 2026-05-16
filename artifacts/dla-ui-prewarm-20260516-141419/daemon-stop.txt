@@ -1,0 +1,3 @@
+﻿stopping DLA server pid=20785
+stopping DLA bridge pid=20773
+openclaw-dla-daemon stopped

@@ -1,0 +1,27 @@
+﻿
+artifacts\dla-app-prewarm-cold-20260516-143755\android-dla-bridge.log:1:OpenClaw DLA bridge listening on 127.0.0.1:8081
+artifacts\dla-app-prewarm-cold-20260516-143755\android-dla-bridge.log:2:[openclaw-dla-perf] id=warmup-1778913479880 pha
+se=warmup_start t=1778913479881 elapsedMs=1 reason=startup generate=false
+artifacts\dla-app-prewarm-cold-20260516-143755\android-dla-bridge.log:4:[openclaw-dla-perf] id=warmup-1778913479880 pha
+se=persistent_server_starting t=1778913480399 elapsedMs=519 bin=/data/app/~~vCVfbpE8qOXiJ7AB529pPQ==/io.github.openclaw
+cn.app-A5Ihq5lXxgRckgfNMFHYcg==/lib/arm64/libopenclaw_dla_server.so port=18082
+artifacts\dla-app-prewarm-cold-20260516-143755\android-dla-bridge.log:5:[openclaw-dla-perf] id=warmup-1778913480610 pha
+se=warmup_start t=1778913480610 elapsedMs=0 reason=http generate=false
+artifacts\dla-app-prewarm-cold-20260516-143755\android-dla-bridge.log:6:[openclaw-dla-perf] id=warmup-1778913480634 pha
+se=warmup_start t=1778913480634 elapsedMs=0 reason=http generate=false
+artifacts\dla-app-prewarm-cold-20260516-143755\android-dla-bridge.log:7:[openclaw-dla-perf] id=warmup-1778913480668 pha
+se=warmup_start t=1778913480668 elapsedMs=0 reason=http generate=false
+artifacts\dla-app-prewarm-cold-20260516-143755\android-dla-bridge.log:10:[openclaw-dla-perf] persistent_server_closed c
+ode= pid=23257
+artifacts\dla-app-prewarm-cold-20260516-143755\android-dla-bridge.log:11:[openclaw-dla-perf] id=warmup-1778913479880 ph
+ase=persistent_server_not_ready t=1778913490605 elapsedMs=10725 pid=23257
+artifacts\dla-app-prewarm-cold-20260516-143755\android-dla-bridge.log:12:[openclaw-dla-perf] id=warmup-1778913479880 ph
+ase=warmup_failed t=1778913490607 elapsedMs=10727 reason=server_not_ready
+artifacts\dla-app-prewarm-cold-20260516-143755\android-dla-bridge.log:13:[openclaw-dla-perf] id=warmup-1778913480610 ph
+ase=warmup_failed t=1778913490608 elapsedMs=9998 reason=server_not_ready
+artifacts\dla-app-prewarm-cold-20260516-143755\android-dla-bridge.log:14:[openclaw-dla-perf] id=warmup-1778913480634 ph
+ase=warmup_failed t=1778913490608 elapsedMs=9974 reason=server_not_ready
+artifacts\dla-app-prewarm-cold-20260516-143755\android-dla-bridge.log:15:[openclaw-dla-perf] id=warmup-1778913480668 ph
+ase=warmup_failed t=1778913490609 elapsedMs=9941 reason=server_not_ready
+
+

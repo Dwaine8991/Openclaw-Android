@@ -1,0 +1,729 @@
+﻿
+05-16 14:14:30.489 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:30.489 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:30.489 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:30.489 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:30.489 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:30.489 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:30.489 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:31.516 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:31.516 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:31.516 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:31.516 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:31.516 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:31.516 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:31.516 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:32.558 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:32.558 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:32.558 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:32.558 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:32.558 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:32.558 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:32.558 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:33.574 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:33.574 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:33.574 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:33.574 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:33.574 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:33.574 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:33.574 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:34.086 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:34.086 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:34.086 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:34.086 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:34.086 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:34.086 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable$default(L
+ocalGatewayLauncher.kt:111)
+05-16 14:14:34.086 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.ensureStartedLocked(LocalGat
+ewayLauncher.kt:78)
+05-16 14:14:34.086 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$ensureStartedLocked(L
+ocalGatewayLauncher.kt:18)
+05-16 14:14:34.086 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$ensureStartedLocked$1.invoke
+Suspend(Unknown Source:15)
+05-16 14:14:34.373 21004 21004 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+05-16 14:14:34.393 21004 21004 I AndroidRuntime: Using default boot image
+05-16 14:14:34.393 21004 21004 I AndroidRuntime: Leaving lock profiling enabled
+05-16 14:14:34.600 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:34.600 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:34.600 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:34.600 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:34.600 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:34.600 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:34.600 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:34.883 21004 21004 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-16 14:14:34.902  1085  1568 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, m
+ConnectionState=DISCONNECTED
+05-16 14:14:34.916  1085  2649 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, m
+ConnectionState=DISCONNECTED
+05-16 14:14:35.620 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:35.620 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:35.620 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:35.620 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:35.620 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:35.620 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:35.620 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:36.345  1085  1570 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, m
+ConnectionState=DISCONNECTED
+05-16 14:14:36.354 21004 21004 D AndroidRuntime: Shutting down VM
+05-16 14:14:36.641 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:36.641 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:36.641 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:36.641 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:36.641 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:36.641 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:36.641 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:37.663 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:37.663 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:37.663 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:37.663 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:37.663 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:37.663 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:37.663 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:38.683 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:38.683 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:38.683 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:38.683 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:38.683 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:38.683 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:38.683 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:39.696 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:39.696 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:39.696 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:39.696 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:39.696 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:39.696 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:39.696 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:40.710 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:40.710 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:40.710 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:40.710 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:40.710 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:40.710 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:40.710 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:41.726 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:41.726 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:41.726 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:41.726 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:41.726 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:41.726 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:41.726 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:42.740 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:42.740 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:42.740 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:42.740 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:42.740 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:42.740 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:42.740 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:43.755 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:43.755 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:43.755 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:43.755 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:43.755 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:43.755 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:43.755 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:44.773 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:44.773 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:44.773 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:44.773 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:44.773 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:44.773 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:44.773 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:44.791 21029 21029 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+05-16 14:14:44.811 21029 21029 I AndroidRuntime: Using default boot image
+05-16 14:14:44.811 21029 21029 I AndroidRuntime: Leaving lock profiling enabled
+05-16 14:14:45.308 21029 21029 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-16 14:14:45.326  1085  4924 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, m
+ConnectionState=DISCONNECTED
+05-16 14:14:45.340  1085  4917 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, m
+ConnectionState=DISCONNECTED
+05-16 14:14:45.793 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:45.793 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:45.793 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:45.793 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:45.793 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:45.793 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:45.793 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:46.499  1085  3114 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, m
+ConnectionState=DISCONNECTED
+05-16 14:14:46.506 21029 21029 D AndroidRuntime: Shutting down VM
+05-16 14:14:46.811 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:46.811 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:46.811 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:46.811 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:46.811 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:46.811 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:46.811 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:47.832 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:47.832 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:47.832 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:47.832 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:47.832 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:47.832 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:47.832 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:48.851 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:48.851 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:48.851 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:48.851 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:48.851 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:48.851 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:48.851 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:49.867 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:49.867 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:49.867 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:49.867 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:49.867 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:49.867 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:49.867 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:50.883 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:50.883 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:50.883 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:50.883 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:50.883 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:50.883 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:50.883 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:51.904 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:51.904 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:51.904 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:51.904 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:51.904 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:51.904 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:51.904 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:52.922 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:52.922 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:52.922 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:52.922 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:52.922 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:52.922 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:52.922 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:53.938 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:53.938 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:53.938 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:53.938 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:53.938 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:53.938 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:53.938 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:54.952 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:54.952 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:54.952 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:54.952 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:54.952 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:54.952 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:54.952 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:55.969 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:55.969 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:55.969 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:55.969 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:55.969 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:55.969 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:55.969 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:56.986 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:56.986 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:56.986 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:56.986 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:56.986 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:56.986 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:56.986 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:58.000 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:58.000 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:58.000 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:58.000 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:58.000 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:58.000 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:58.000 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:14:59.013 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:14:59.013 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:14:59.013 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:14:59.013 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:14:59.013 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:14:59.013 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:14:59.013 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:00.026 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:00.026 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:00.026 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:00.026 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:00.026 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:00.026 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:00.026 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:01.043 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:01.043 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:01.043 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:01.043 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:01.043 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:01.043 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:01.043 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:02.059 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:02.059 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:02.059 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:02.059 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:02.059 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:02.059 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:02.059 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:03.073 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:03.073 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:03.073 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:03.073 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:03.073 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:03.073 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:03.073 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:04.088 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:04.088 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:04.088 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:04.088 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:04.088 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:04.088 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:04.088 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:05.101 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:05.101 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:05.101 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:05.101 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:05.101 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:05.101 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:05.101 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:06.120 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:06.120 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:06.120 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:06.120 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:06.120 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:06.120 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:06.120 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:07.138 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:07.138 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:07.138 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:07.138 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:07.138 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:07.138 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:07.138 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:08.152 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:08.152 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:08.152 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:08.152 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:08.152 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:08.152 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:08.152 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:09.166 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:09.166 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:09.166 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:09.166 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:09.166 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:09.166 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:09.166 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:10.186 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:10.186 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:10.186 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:10.186 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:10.186 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:10.186 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:10.186 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:11.205 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:11.205 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:11.205 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:11.205 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:11.205 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:11.205 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:11.205 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:12.227 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:12.227 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:12.227 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:12.227 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:12.227 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:12.227 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:12.227 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:13.249 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:13.249 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:13.249 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:13.249 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:13.249 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:13.249 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:13.249 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:14.271 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:14.271 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:14.271 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:14.271 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:14.271 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:14.271 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:14.271 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:15.293 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:15.293 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:15.293 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:15.293 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:15.293 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:15.293 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:15.293 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:16.315 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:16.315 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:16.315 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:16.315 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:16.315 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:16.315 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:16.315 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:17.338 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:17.338 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:17.338 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:17.338 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:17.338 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.waitUntilReachable(LocalGate
+wayLauncher.kt:117)
+05-16 14:15:17.338 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.access$waitUntilReachable(Lo
+calGatewayLauncher.kt:18)
+05-16 14:15:17.338 20869 20939 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$waitUntilReachable$1.invokeS
+uspend(Unknown Source:16)
+05-16 14:15:17.853 20869 20939 I LocalGatewayLauncher: Local gateway became reachable
+05-16 14:15:17.927 20869 20930 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invokeSuspend(L
+ocalGatewayLauncher.kt:132)
+05-16 14:15:17.927 20869 20930 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:8)
+05-16 14:15:17.927 20869 20930 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$canConnect$2.invoke(Unknown 
+Source:4)
+05-16 14:15:17.927 20869 20930 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.canConnect(LocalGatewayLaunc
+her.kt:129)
+05-16 14:15:17.927 20869 20930 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.ensureStartedLocked(LocalGat
+ewayLauncher.kt:55)
+05-16 14:15:17.927 20869 20930 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher.ensureStarted(LocalGatewayLa
+uncher.kt:44)
+05-16 14:15:17.927 20869 20930 D StrictMode: 	at ai.openclaw.app.node.LocalGatewayLauncher$ensureStarted$1.invokeSuspen
+d(Unknown Source:15)
+05-16 14:15:17.931 20869 20930 I LocalGatewayLauncher: Reusing reachable app-owned local gateway
+05-16 14:15:18.024 20869 20931 I LocalGatewayLauncher: Reusing reachable app-owned local gateway
+05-16 14:16:13.671 21085 21085 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+05-16 14:16:13.680 21085 21085 I AndroidRuntime: Using default boot image
+05-16 14:16:13.680 21085 21085 I AndroidRuntime: Leaving lock profiling enabled
+05-16 14:16:14.031 21085 21085 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-16 14:16:14.048  1085  2649 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, m
+ConnectionState=DISCONNECTED
+05-16 14:16:14.071  1085  1568 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, m
+ConnectionState=DISCONNECTED
+05-16 14:16:15.217  1085  3114 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, m
+ConnectionState=DISCONNECTED
+05-16 14:16:15.225 21085 21085 D AndroidRuntime: Shutting down VM
+
+

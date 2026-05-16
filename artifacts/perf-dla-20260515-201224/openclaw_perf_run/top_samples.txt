@@ -1,0 +1,577 @@
+===== 1778847366 elapsed=0 =====
+Tasks: 505 total,   6 running, 499 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6812936K used,   603012K free,     3204K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3981592K cached
+800%cpu 178%user  53%nice 209%sys 316%idle   0%iow  38%irq   6%sirq   0%host
+20904 root          0.0  55M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       171 279M io.github.openclawcn.app
+21678 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+20936 root          0.0    0 [kworker/7:1-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+21519 root          0.0    0 [kworker/6:1-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847370 elapsed=4 =====
+Tasks: 504 total,   5 running, 499 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6842848K used,   573100K free,     3204K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3982576K cached
+800%cpu 200%user   6%nice 181%sys 375%idle   0%iow  34%irq   3%sirq   0%host
+20904 root          0.0  55M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123      56.2 283M io.github.openclawcn.app
+21760 root          0.0 3.9M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847374 elapsed=8 =====
+Tasks: 506 total,   3 running, 503 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6876496K used,   539452K free,     3204K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3984136K cached
+800%cpu 184%user   0%nice 175%sys 400%idle   0%iow  34%irq   6%sirq   0%host
+20904 root          0.0  56M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123      37.5 281M io.github.openclawcn.app
+21850 root          0.0 3.5M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20797 root          0.0    0 [kworker/6:0-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847380 elapsed=14 =====
+Tasks: 504 total,   2 running, 502 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  7242820K used,   173128K free,     3200K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3462868K cached
+800%cpu 181%user   0%nice 169%sys 413%idle   0%iow  34%irq   3%sirq   0%host
+20904 root          0.0  56M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123      40.6 281M io.github.openclawcn.app
+21940 root          0.0 3.5M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20797 root          0.0    0 [kworker/6:0-mm_percpu_wq]
+21073 root          0.0    0 [kworker/4:0-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847384 elapsed=18 =====
+Tasks: 505 total,   2 running, 503 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  7138172K used,   277776K free,     3164K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3406504K cached
+800%cpu 122%user   0%nice 259%sys 378%idle   0%iow  34%irq   6%sirq   0%host
+20904 root          0.0  56M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123      43.7 282M io.github.openclawcn.app
+22027 root          0.0 3.5M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20797 root          0.0    0 [kworker/6:0-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847389 elapsed=23 =====
+Tasks: 505 total,   8 running, 497 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  7153576K used,   262372K free,     3164K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3410736K cached
+800%cpu 191%user   0%nice 185%sys 376%idle   0%iow  39%irq   9%sirq   0%host
+20904 root          6.0  56M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123      96.9 282M io.github.openclawcn.app
+22101 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20797 root          0.0    0 [kworker/6:0-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847394 elapsed=28 =====
+Tasks: 505 total,   2 running, 503 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  7110536K used,   305412K free,     3160K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3347536K cached
+800%cpu 122%user   0%nice 263%sys 372%idle   0%iow  34%irq   9%sirq   0%host
+20904 root          0.0  56M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123      34.3 281M io.github.openclawcn.app
+22188 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21240 root          0.0    0 [kworker/7:0-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20797 root          0.0    0 [kworker/6:0-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847399 elapsed=33 =====
+Tasks: 505 total,   2 running, 503 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  7040024K used,   375924K free,     3160K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3323320K cached
+800%cpu  56%user   0%nice 228%sys 478%idle   0%iow  31%irq   6%sirq   0%host
+20904 root          0.0  56M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       9.3 287M io.github.openclawcn.app
+22280 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21240 root          0.0    0 [kworker/7:0-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+21519 root          0.0    0 [kworker/6:1-mm_percpu_wq]
+20797 root          0.0    0 [kworker/6:0-mm_percpu_wq]
+20647 root          0.0    0 [kworker/5:1-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847403 elapsed=37 =====
+Tasks: 505 total,   2 running, 503 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  7124920K used,   291028K free,     3156K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3287300K cached
+800%cpu  72%user   0%nice 131%sys 556%idle   0%iow  34%irq   6%sirq   0%host
+20904 root          0.0  56M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       3.1 288M io.github.openclawcn.app
+22353 root          0.0 3.7M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21240 root          0.0    0 [kworker/7:0-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20797 root          0.0    0 [kworker/6:0-mm_percpu_wq]
+20647 root          3.1    0 [kworker/5:1-mm_percpu_wq]
+13065 root          0.0    0 [kworker/2:2-mm_percpu_wq]
+ 7782 root          0.0    0 [kworker/0:2-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847408 elapsed=42 =====
+Tasks: 505 total,   3 running, 502 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  7040376K used,   375572K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3237684K cached
+800%cpu  64%user   0%nice 148%sys 552%idle   0%iow  33%irq   3%sirq   0%host
+20904 root          0.0  52M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       6.0 288M io.github.openclawcn.app
+22440 root          0.0 3.5M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21240 root          0.0    0 [kworker/7:0-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20797 root          0.0    0 [kworker/6:0-mm_percpu_wq]
+21073 root          0.0    0 [kworker/4:0-mm_percpu_wq]
+17411 root          0.0    0 [kworker/3:0-mm_percpu_wq]
+13065 root          0.0    0 [kworker/2:2-mm_percpu_wq]
+ 7782 root          0.0    0 [kworker/0:2-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847412 elapsed=46 =====
+Tasks: 505 total,   2 running, 503 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  7046148K used,   369800K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3238524K cached
+800%cpu  67%user   0%nice 148%sys 545%idle   0%iow  33%irq   6%sirq   0%host
+20904 root         12.1  52M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       6.0 288M io.github.openclawcn.app
+22510 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20797 root          0.0    0 [kworker/6:0-mm_percpu_wq]
+20647 root          0.0    0 [kworker/5:1-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847417 elapsed=51 =====
+Tasks: 505 total,   2 running, 503 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  7053152K used,   362796K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3239244K cached
+800%cpu  94%user   0%nice 176%sys 485%idle   0%iow  36%irq   9%sirq   0%host
+20904 root          3.0  53M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       9.0 288M io.github.openclawcn.app
+22580 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20797 root          0.0    0 [kworker/6:0-mm_percpu_wq]
+20647 root          0.0    0 [kworker/5:1-mm_percpu_wq]
+21073 root          0.0    0 [kworker/4:0-mm_percpu_wq]
+17411 root          0.0    0 [kworker/3:0-mm_percpu_wq]
+13065 root          0.0    0 [kworker/2:2-mm_percpu_wq]
+20463 root          0.0    0 [kworker/1:1-mm_percpu_wq]
+ 7782 root          0.0    0 [kworker/0:2-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847421 elapsed=55 =====
+Tasks: 505 total,   3 running, 502 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6125520K used,  1290428K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3184760K cached
+800%cpu  63%user   0%nice 222%sys 475%idle   0%iow  34%irq   6%sirq   0%host
+20904 root          0.0  49M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       3.1 288M io.github.openclawcn.app
+22731 root          0.0 4.3M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20647 root          0.0    0 [kworker/5:1-mm_percpu_wq]
+21073 root          0.0    0 [kworker/4:0-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847425 elapsed=59 =====
+Tasks: 504 total,   3 running, 501 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6071136K used,  1344812K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3185052K cached
+800%cpu  34%user   0%nice 106%sys 625%idle   0%iow  31%irq   3%sirq   0%host
+20904 root          0.0  49M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       0.0 288M io.github.openclawcn.app
+22816 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+21073 root          0.0    0 [kworker/4:0-mm_percpu_wq]
+13065 root          0.0    0 [kworker/2:2-mm_percpu_wq]
+ 7782 root          0.0    0 [kworker/0:2-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847429 elapsed=63 =====
+Tasks: 504 total,   2 running, 502 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6067488K used,  1348460K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3185336K cached
+800%cpu  44%user   0%nice 144%sys 575%idle   0%iow  31%irq   6%sirq   0%host
+20904 root          0.0  49M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       6.2 289M io.github.openclawcn.app
+22887 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+20936 root          0.0    0 [kworker/7:1-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+21073 root          0.0    0 [kworker/4:0-mm_percpu_wq]
+20463 root          0.0    0 [kworker/1:1-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847433 elapsed=67 =====
+Tasks: 504 total,   2 running, 502 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6072240K used,  1343708K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3185356K cached
+800%cpu  44%user   0%nice 134%sys 581%idle   0%iow  34%irq   6%sirq   0%host
+20904 root          0.0  49M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       9.3 289M io.github.openclawcn.app
+22957 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21240 root          0.0    0 [kworker/7:0-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20647 root          0.0    0 [kworker/5:1-mm_percpu_wq]
+17411 root          0.0    0 [kworker/3:0-mm_percpu_wq]
+13065 root          0.0    0 [kworker/2:2-mm_percpu_wq]
+ 7782 root          0.0    0 [kworker/0:2-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847437 elapsed=71 =====
+Tasks: 504 total,   2 running, 502 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6074380K used,  1341568K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3185640K cached
+800%cpu  50%user   0%nice 128%sys 588%idle   0%iow  31%irq   3%sirq   0%host
+20904 root          0.0  49M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       9.3 289M io.github.openclawcn.app
+23028 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21240 root          0.0    0 [kworker/7:0-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+21073 root          0.0    0 [kworker/4:0-mm_percpu_wq]
+17411 root          0.0    0 [kworker/3:0-mm_percpu_wq]
+20463 root          0.0    0 [kworker/1:1-mm_percpu_wq]
+ 7782 root          0.0    0 [kworker/0:2-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847441 elapsed=75 =====
+Tasks: 504 total,   2 running, 502 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6070640K used,  1345308K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3185780K cached
+800%cpu  44%user   0%nice 113%sys 609%idle   0%iow  31%irq   3%sirq   0%host
+20904 root          0.0  49M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       6.2 289M io.github.openclawcn.app
+23109 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21240 root          0.0    0 [kworker/7:0-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20647 root          0.0    0 [kworker/5:1-mm_percpu_wq]
+21073 root          0.0    0 [kworker/4:0-mm_percpu_wq]
+17411 root          0.0    0 [kworker/3:0-mm_percpu_wq]
+20463 root          0.0    0 [kworker/1:1-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847445 elapsed=79 =====
+Tasks: 504 total,   1 running, 503 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6086592K used,  1329356K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3186780K cached
+800%cpu  88%user   6%nice 169%sys 497%idle   0%iow  34%irq   6%sirq   0%host
+20904 root          0.0  49M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123      46.8 306M io.github.openclawcn.app
+23180 root          0.0 3.5M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+20280 root          0.0    0 [kworker/7:2-mm_percpu_wq]
+21240 root          0.0    0 [kworker/7:0-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20647 root          0.0    0 [kworker/5:1-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847449 elapsed=83 =====
+Tasks: 503 total,   2 running, 501 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6094276K used,  1321672K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3187508K cached
+800%cpu  50%user   0%nice 147%sys 563%idle   0%iow  34%irq   6%sirq   0%host
+20904 root          0.0  49M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       9.3 307M io.github.openclawcn.app
+23249 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+21240 root          0.0    0 [kworker/7:0-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+17411 root          0.0    0 [kworker/3:0-mm_percpu_wq]
+20463 root          0.0    0 [kworker/1:1-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847453 elapsed=87 =====
+Tasks: 503 total,   4 running, 499 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6094360K used,  1321588K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3187556K cached
+800%cpu 153%user   0%nice 100%sys 516%idle   0%iow  28%irq   3%sirq   0%host
+20904 root          0.0  49M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       0.0 308M io.github.openclawcn.app
+23319 root          0.0 4.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+21240 root          0.0    0 [kworker/7:0-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20647 root          0.0    0 [kworker/5:1-mm_percpu_wq]
+21073 root          0.0    0 [kworker/4:0-mm_percpu_wq]
+17411 root          0.0    0 [kworker/3:0-mm_percpu_wq]
+13065 root          0.0    0 [kworker/2:2-mm_percpu_wq]
+20463 root          0.0    0 [kworker/1:1-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847457 elapsed=91 =====
+Tasks: 503 total,   2 running, 501 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6086936K used,  1329012K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3187844K cached
+800%cpu  44%user   0%nice 113%sys 603%idle   0%iow  34%irq   6%sirq   0%host
+20904 root          0.0  49M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       9.3 308M io.github.openclawcn.app
+23389 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+21240 root          0.0    0 [kworker/7:0-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20647 root          0.0    0 [kworker/5:1-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847461 elapsed=95 =====
+Tasks: 503 total,   2 running, 501 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6082508K used,  1333440K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3187872K cached
+800%cpu  53%user   0%nice 113%sys 600%idle   0%iow  31%irq   3%sirq   0%host
+20904 root          0.0  49M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       9.3 308M io.github.openclawcn.app
+23459 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+21240 root          0.0    0 [kworker/7:0-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20797 root          0.0    0 [kworker/6:0-mm_percpu_wq]
+17411 root          0.0    0 [kworker/3:0-mm_percpu_wq]
+13065 root          0.0    0 [kworker/2:2-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]
+===== 1778847465 elapsed=99 =====
+Tasks: 503 total,   1 running, 502 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6076148K used,  1339800K free,     3132K buffers
+ Swap:  7415944K total,   428544K used,  6987400K free,  3188148K cached
+800%cpu  44%user   0%nice 103%sys 613%idle   0%iow  34%irq   6%sirq   0%host
+20904 root          0.0  49M libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+21043 u0_a123       9.3 308M io.github.openclawcn.app
+23529 root          0.0 3.4M grep -E io.github.openclawcn.app|libopenclaw_node|llm_sdk|/main| main$|TOTAL|Tasks|Mem:|Swap:|cpu
+    9 root          0.0    0 [mm_percpu_wq]
+21240 root          0.0    0 [kworker/7:0-mm_percpu_wq]
+21205 root          0.0    0 [kworker/6:2-mm_percpu_wq]
+20797 root          0.0    0 [kworker/6:0-mm_percpu_wq]
+21073 root          0.0    0 [kworker/4:0-mm_percpu_wq]
+17411 root          0.0    0 [kworker/3:0-mm_percpu_wq]
+13065 root          0.0    0 [kworker/2:2-mm_percpu_wq]
+   57 root          0.0    0 [cpuhp/7]
+   51 root          0.0    0 [cpuhp/6]
+   45 root          0.0    0 [cpuhp/5]
+   39 root          0.0    0 [cpuhp/4]
+   33 root          0.0    0 [cpuhp/3]
+   27 root          0.0    0 [cpuhp/2]
+   21 root          0.0    0 [cpuhp/1]
+   20 root          0.0    0 [cpuhp/0]
+  398 root          0.0    0 [cpu_freq_wq]
+  399 root          0.0    0 [cpu_core_wq]

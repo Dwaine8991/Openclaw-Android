@@ -1,0 +1,59 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 169265290 Realtime: 169265290
+
+** MEMINFO in pid 29143 [io.github.openclawcn.app] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap  1648763  1648616       68      228  1649324  1852744  1778293    64345
+  Dalvik Heap    39520    34316     4996      125    40276    45270    22635    22635
+ Dalvik Other    20899     6888       48        8    35144                           
+        Stack     3256     3256        0        0     3264                           
+       Ashmem       98        0        0        0      428                           
+    Other dev      116       72       20        0      516                           
+     .so mmap    22222     1364    16464      163    47800                           
+    .jar mmap     6741        0     2320        0    29412                           
+    .apk mmap    48089        0    47852        0    48996                           
+    .ttf mmap       19        0        0        0       88                           
+    .dex mmap       60        0       12        0      824                           
+    .oat mmap      492        0      332        0     1616                           
+    .art mmap    15218     8908     4556      389    26296                           
+   Other mmap     5372       16     5104        1     6320                           
+   EGL mtrack    12400    12400        0        0    12400                           
+    GL mtrack     9996     9996        0        0     9996                           
+      Unknown     1847     1488      276       35     2256                           
+        TOTAL  1836057  1727320    82048      949  1914956  1898014  1800928    86980
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    47780                          66572
+         Native Heap:  1648616                        1649324
+                Code:    68620                         156900
+               Stack:     3256                           3264
+            Graphics:    22396                          22396
+       Private Other:    18700
+              System:    26689
+             Unknown:                                   16500
+ 
+           TOTAL PSS:  1836057            TOTAL RSS:  1914956       TOTAL SWAP PSS:      949
+ 
+ Objects
+               Views:       13         ViewRootImpl:        1
+         AppContexts:        7           Activities:        1
+              Assets:       14        AssetManagers:        0
+       Local Binders:       28        Proxy Binders:       72
+       Parcel memory:       13         Parcel count:       55
+    Death Recipients:        0             WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      147
+  PAGECACHE_OVERFLOW:       59          MALLOC_SIZE:       46
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b) cache hits cache misses cache size  Dbname
+PER CONNECTION STATS
+         4       56            123   309   120    18  /data/user/0/io.github.openclawcn.app/databases/com.google.android.datatransport.events
+POOL STATS
+     cache hits  cache misses    cache size  Dbname
+            309           121           430  /data/user/0/io.github.openclawcn.app/databases/com.google.android.datatransport.events

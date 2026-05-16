@@ -1,0 +1,500 @@
+﻿  PID NAME                        ARGS                       
+    1 init                        init second_stage
+    2 [kthreadd]                  [kthreadd]
+    3 [rcu_gp]                    [rcu_gp]
+    4 [slub_flushwq]              [slub_flushwq]
+    5 [netns]                     [netns]
+    9 [mm_percpu_wq]              [mm_percpu_wq]
+   11 [rcu_tasks_kthread]         [rcu_tasks_kthread]
+   12 [rcu_tasks_trace_kthread]   [rcu_tasks_trace_kthread]
+   13 [ksoftirqd/0]               [ksoftirqd/0]
+   14 [rcu_preempt]               [rcu_preempt]
+   15 [rcub/0]                    [rcub/0]
+   16 [rcu_exp_gp_kthread_worker] [rcu_exp_gp_kthread_worker]
+   17 [rcu_exp_par_gp_kthread_worker] [rcu_exp_par_gp_kthread_worker]
+   18 [migration/0]               [migration/0]
+   19 [idle_inject/0]             [idle_inject/0]
+   20 [cpuhp/0]                   [cpuhp/0]
+   21 [cpuhp/1]                   [cpuhp/1]
+   22 [idle_inject/1]             [idle_inject/1]
+   23 [migration/1]               [migration/1]
+   24 [ksoftirqd/1]               [ksoftirqd/1]
+   27 [cpuhp/2]                   [cpuhp/2]
+   28 [idle_inject/2]             [idle_inject/2]
+   29 [migration/2]               [migration/2]
+   30 [ksoftirqd/2]               [ksoftirqd/2]
+   33 [cpuhp/3]                   [cpuhp/3]
+   34 [idle_inject/3]             [idle_inject/3]
+   35 [migration/3]               [migration/3]
+   36 [ksoftirqd/3]               [ksoftirqd/3]
+   39 [cpuhp/4]                   [cpuhp/4]
+   40 [idle_inject/4]             [idle_inject/4]
+   41 [migration/4]               [migration/4]
+   42 [ksoftirqd/4]               [ksoftirqd/4]
+   45 [cpuhp/5]                   [cpuhp/5]
+   46 [idle_inject/5]             [idle_inject/5]
+   47 [migration/5]               [migration/5]
+   48 [ksoftirqd/5]               [ksoftirqd/5]
+   51 [cpuhp/6]                   [cpuhp/6]
+   52 [idle_inject/6]             [idle_inject/6]
+   53 [migration/6]               [migration/6]
+   54 [ksoftirqd/6]               [ksoftirqd/6]
+   57 [cpuhp/7]                   [cpuhp/7]
+   58 [idle_inject/7]             [idle_inject/7]
+   59 [migration/7]               [migration/7]
+   60 [ksoftirqd/7]               [ksoftirqd/7]
+   63 [inet_frag_wq]              [inet_frag_wq]
+   64 [kauditd]                   [kauditd]
+   65 [khungtaskd]                [khungtaskd]
+   66 [oom_reaper]                [oom_reaper]
+   67 [writeback]                 [writeback]
+   68 [kcompactd0]                [kcompactd0]
+   69 [kblockd]                   [kblockd]
+   70 [blkcg_punt_bio]            [blkcg_punt_bio]
+   71 [edac-poller]               [edac-poller]
+   72 [devfreq_wq]                [devfreq_wq]
+   73 [watchdogd]                 [watchdogd]
+   78 [kswapd0]                   [kswapd0]
+   80 [erofs_worker/0]            [erofs_worker/0]
+   81 [erofs_worker/1]            [erofs_worker/1]
+   82 [erofs_worker/2]            [erofs_worker/2]
+   83 [erofs_worker/3]            [erofs_worker/3]
+   84 [erofs_worker/4]            [erofs_worker/4]
+   85 [erofs_worker/5]            [erofs_worker/5]
+   86 [erofs_worker/6]            [erofs_worker/6]
+   87 [erofs_worker/7]            [erofs_worker/7]
+   88 [kthrotld]                  [kthrotld]
+  103 [dmabuf-deferred-free-worker] [dmabuf-deferred-free-worker]
+  106 [nvme-wq]                   [nvme-wq]
+  108 [nvme-reset-wq]             [nvme-reset-wq]
+  110 [nvme-delete-wq]            [nvme-delete-wq]
+  113 [uas]                       [uas]
+  116 [dm_bufio_cache]            [dm_bufio_cache]
+  128 [hwrng]                     [hwrng]
+  130 [mld]                       [mld]
+  131 [ipv6_addrconf]             [ipv6_addrconf]
+  135 [mt-wdk]                    [mt-wdk]
+  136 [wdtk-0]                    [wdtk-0]
+  137 [wdtk-1]                    [wdtk-1]
+  138 [wdtk-2]                    [wdtk-2]
+  139 [wdtk-3]                    [wdtk-3]
+  140 [wdtk-4]                    [wdtk-4]
+  141 [wdtk-5]                    [wdtk-5]
+  142 [wdtk-6]                    [wdtk-6]
+  143 [wdtk-7]                    [wdtk-7]
+  144 [hang_detect]               [hang_detect]
+  145 [hang_detect1]              [hang_detect1]
+  146 [logmuch_detect]            [logmuch_detect]
+  148 [irq/235-mt6358-irq]        [irq/235-mt6358-irq]
+  149 [xsphy]                     [xsphy]
+  150 [xsphy]                     [xsphy]
+  151 [xsphy]                     [xsphy]
+  152 [xsphy]                     [xsphy]
+  164 [irq/281-11201000.usb0]     [irq/281-11201000.usb0]
+  165 [otg_sx]                    [otg_sx]
+  166 [stmmac_wq]                 [stmmac_wq]
+  168 [cmdq_irq_thread]           [cmdq_irq_thread]
+  169 [cmdq_buf_dump]             [cmdq_buf_dump]
+  170 [cmdq_timeout_ha]           [cmdq_timeout_ha]
+  171 [cmdq_flushq]               [cmdq_flushq]
+  172 [cmdq_irq_thread]           [cmdq_irq_thread]
+  173 [cmdq_buf_dump]             [cmdq_buf_dump]
+  174 [cmdq_timeout_ha]           [cmdq_timeout_ha]
+  175 [cmdq_flushq]               [cmdq_flushq]
+  176 [cmdq_vcp_power_]           [cmdq_vcp_power_]
+  177 [cmdq_pkt_destro]           [cmdq_pkt_destro]
+  178 [cmdq_buffer_usage]         [cmdq_buffer_usage]
+  179 [ree_service]               [ree_service]
+  180 [irq/296-TEE IRQ]           [irq/296-TEE IRQ]
+  181 [dmabuf-deferred-free-worker] [dmabuf-deferred-free-worker]
+  182 [dma_pool_fill_thread]      [dma_pool_fill_thread]
+  183 [sec-dmabuf-deferred-free-worker] [sec-dmabuf-deferred-free-worker]
+  184 [sec-dmabuf-deferred-free-worker] [sec-dmabuf-deferred-free-worker]
+  185 [cmdq_sec_notify]           [cmdq_sec_notify]
+  186 [cmdq_sec_timeou]           [cmdq_sec_timeou]
+  187 [cmdq_sec_notify]           [cmdq_sec_notify]
+  188 [cmdq_sec_timeou]           [cmdq_sec_timeou]
+  190 [cmdq_flushq]               [cmdq_flushq]
+  191 [cmdq_flushq]               [cmdq_flushq]
+  192 [task_exec_wq_13]           [task_exec_wq_13]
+  193 [cmdq_flushq]               [cmdq_flushq]
+  194 [cmdq_flushq]               [cmdq_flushq]
+  195 [cmdq_flushq]               [cmdq_flushq]
+  196 [cmdq_flushq]               [cmdq_flushq]
+  197 [cmdq_flushq]               [cmdq_flushq]
+  198 [cmdq_flushq]               [cmdq_flushq]
+  199 [task_exec_wq_11]           [task_exec_wq_11]
+  200 [cmdq_flushq]               [cmdq_flushq]
+  201 [task_exec_wq_12]           [task_exec_wq_12]
+  202 [cmdq_flushq]               [cmdq_flushq]
+  203 [cmdq_auto_relea]           [cmdq_auto_relea]
+  204 [cmdq_auto_relea]           [cmdq_auto_relea]
+  205 [cmdq_auto_relea]           [cmdq_auto_relea]
+  206 [cmdq_auto_relea]           [cmdq_auto_relea]
+  207 [cmdq_auto_relea]           [cmdq_auto_relea]
+  208 [cmdq_auto_relea]           [cmdq_auto_relea]
+  209 [cmdq_auto_relea]           [cmdq_auto_relea]
+  210 [cmdq_auto_relea]           [cmdq_auto_relea]
+  211 [cmdq_auto_relea]           [cmdq_auto_relea]
+  212 [cmdq_auto_relea]           [cmdq_auto_relea]
+  213 [cmdq_auto_relea]           [cmdq_auto_relea]
+  214 [cmdq_auto_relea]           [cmdq_auto_relea]
+  215 [cmdq_auto_relea]           [cmdq_auto_relea]
+  216 [cmdq_auto_relea]           [cmdq_auto_relea]
+  217 [cmdq_auto_relea]           [cmdq_auto_relea]
+  218 [cmdq_auto_relea]           [cmdq_auto_relea]
+  219 [cmdq_auto_relea]           [cmdq_auto_relea]
+  220 [cmdq_auto_relea]           [cmdq_auto_relea]
+  221 [cmdq_auto_relea]           [cmdq_auto_relea]
+  222 [cmdq_auto_relea]           [cmdq_auto_relea]
+  223 [cmdq_auto_relea]           [cmdq_auto_relea]
+  224 [cmdq_auto_relea]           [cmdq_auto_relea]
+  225 [cmdq_auto_relea]           [cmdq_auto_relea]
+  226 [cmdq_auto_relea]           [cmdq_auto_relea]
+  227 [cmdq_resource]             [cmdq_resource]
+  228 [cmdq_mdp_task]             [cmdq_mdp_task]
+  229 [bp_notify_thread]          [bp_notify_thread]
+  230 [irq/321-dptx]              [irq/321-dptx]
+  231 [card0-crtc0]               [card0-crtc0]
+  232 [card0-crtc1]               [card0-crtc1]
+  233 [card0-crtc2]               [card0-crtc2]
+  234 [card0-crtc3]               [card0-crtc3]
+  235 [cmdq_flushq]               [cmdq_flushq]
+  236 [cmdq_flushq]               [cmdq_flushq]
+  237 [cmdq_flushq]               [cmdq_flushq]
+  238 [cmdq_flushq]               [cmdq_flushq]
+  239 [cmdq_flushq]               [cmdq_flushq]
+  240 [cmdq_flushq]               [cmdq_flushq]
+  241 [task_exec_wq_8]            [task_exec_wq_8]
+  242 [cmdq_flushq]               [cmdq_flushq]
+  243 [mtk_drm_disp_idlemgr-0]    [mtk_drm_disp_idlemgr-0]
+  244 [dis_ki-0]                  [dis_ki-0]
+  245 [enable_vblank]             [enable_vblank]
+  246 [mtk_drm_cwb]               [mtk_drm_cwb]
+  247 [mtk_drm_fake_vsync:0]      [mtk_drm_fake_vsync:0]
+  248 [ddp_trig]                  [ddp_trig]
+  249 [ddp_trig_d]                [ddp_trig_d]
+  250 [ddp_cmdq_trig]             [ddp_cmdq_trig]
+  251 [pf_release_thread]         [pf_release_thread]
+  252 [sf_pf_release_thread]      [sf_pf_release_thread]
+  253 [signal_fence]              [signal_fence]
+  254 [paper_texture]             [paper_texture]
+  255 [mode_switch]               [mode_switch]
+  256 [cmdq_flushq]               [cmdq_flushq]
+  257 [cmdq_flushq]               [cmdq_flushq]
+  258 [task_exec_wq_9]            [task_exec_wq_9]
+  259 [cmdq_flushq]               [cmdq_flushq]
+  260 [pf_release_thread]         [pf_release_thread]
+  261 [sf_pf_release_thread]      [sf_pf_release_thread]
+  262 [signal_fence]              [signal_fence]
+  263 [mode_switch]               [mode_switch]
+  264 [pure_detect_wq]            [pure_detect_wq]
+  265 [aal_refresh_tri]           [aal_refresh_tri]
+  266 [aal_sof_0]                 [aal_sof_0]
+  267 [irq/43-11240000.mmc cd]    [irq/43-11240000.mmc cd]
+  270 [tcpc_timer_type_c_port1]   [tcpc_timer_type_c_port1]
+  271 [tcpc_event_type_c_port1]   [tcpc_event_type_c_port1]
+  272 [mmc_complete]              [mmc_complete]
+  273 [tcpc_timer_type_c_port0]   [tcpc_timer_type_c_port0]
+  274 [tcpc_event_type_c_port0]   [tcpc_event_type_c_port0]
+  275 [extcon_usb]                [extcon_usb]
+  276 [lbat_service]              [lbat_service]
+  280 [f2fs_ckpt-259:7]           [f2fs_ckpt-259:7]
+  281 [f2fs_flush-259:7]          [f2fs_flush-259:7]
+  282 [f2fs_discard-259:7]        [f2fs_discard-259:7]
+  283 [f2fs_gc-259:7]             [f2fs_gc-259:7]
+  284 [kdmflush/254:0]            [kdmflush/254:0]
+  285 [kdmflush/254:1]            [kdmflush/254:1]
+  286 [kdmflush/254:2]            [kdmflush/254:2]
+  287 [kdmflush/254:3]            [kdmflush/254:3]
+  288 [kdmflush/254:4]            [kdmflush/254:4]
+  289 [kdmflush/254:5]            [kdmflush/254:5]
+  290 [kdmflush/254:6]            [kdmflush/254:6]
+  291 [kdmflush/254:7]            [kdmflush/254:7]
+  292 [kdmflush/254:8]            [kdmflush/254:8]
+  293 [kverityd]                  [kverityd]
+  294 [kdmflush/254:9]            [kdmflush/254:9]
+  295 [kverityd]                  [kverityd]
+  296 [kdmflush/254:10]           [kdmflush/254:10]
+  297 [kverityd]                  [kverityd]
+  299 [kdmflush/254:11]           [kdmflush/254:11]
+  300 [kverityd]                  [kverityd]
+  301 [kdmflush/254:12]           [kdmflush/254:12]
+  302 [kverityd]                  [kverityd]
+  303 [kdmflush/254:13]           [kdmflush/254:13]
+  304 [kverityd]                  [kverityd]
+  306 [kdmflush/254:14]           [kdmflush/254:14]
+  307 [kverityd]                  [kverityd]
+  314 init                        init subcontext u:r:vendor_init:s0 17
+  316 ueventd                     ueventd
+  368 [ext4-rsv-conver]           [ext4-rsv-conver]
+  369 [ext4-rsv-conver]           [ext4-rsv-conver]
+  370 [ext4-rsv-conver]           [ext4-rsv-conver]
+  371 [ext4-rsv-conver]           [ext4-rsv-conver]
+  374 prng_seeder                 prng_seeder
+  389 [uether]                    [uether]
+  390 [uether_rx1]                [uether_rx1]
+  391 [uether_rps]                [uether_rps]
+  395 [cfg80211]                  [cfg80211]
+  398 [cpu_freq_wq]               [cpu_freq_wq]
+  399 [cpu_core_wq]               [cpu_core_wq]
+  400 [dram_vcore_wq]             [dram_vcore_wq]
+  401 [vcore_wq]                  [vcore_wq]
+  402 [usb_audio_wq]              [usb_audio_wq]
+  403 [SSPM_WQ]                   [SSPM_WQ]
+  404 [sspm_ts_wq]                [sspm_ts_wq]
+  405 [dlpt_notify_thread]        [dlpt_notify_thread]
+  406 [ged_notify_sw_v]           [ged_notify_sw_v]
+  407 [ged_kpi]                   [ged_kpi]
+  408 [ged_fence]                 [ged_fence]
+  409 [kbase_job_fault]           [kbase_job_fault]
+  411 [SCP_WQ]                    [SCP_WQ]
+  412 [SCP_LOG_WQ]                [SCP_LOG_WQ]
+  413 [SCP_RESET_WQ]              [SCP_RESET_WQ]
+  414 [hf_manager]                [hf_manager]
+  415 [ipi_comm]                  [ipi_comm]
+  416 [transceiver]               [transceiver]
+  417 [sensor_ready]              [sensor_ready]
+  418 [delay_init]                [delay_init]
+  419 [accdet]                    [accdet]
+  420 [dismicQueue]               [dismicQueue]
+  421 [accdet_eint]               [accdet_eint]
+  423 [cmdq_flushq]               [cmdq_flushq]
+  424 [cmdq_flushq]               [cmdq_flushq]
+  425 [task_exec_wq_10]           [task_exec_wq_10]
+  426 [cmdq_flushq]               [cmdq_flushq]
+  427 [mtk-vcodec-dec]            [mtk-vcodec-dec]
+  428 [vdec_buf_dump]             [vdec_buf_dump]
+  429 [mtk-vcodec-enc]            [mtk-vcodec-enc]
+  431 [cmdq_flushq]               [cmdq_flushq]
+  432 [MSS-CMDQ-WQ]               [MSS-CMDQ-WQ]
+  433 [MSF-CMDQ-WQ]               [MSF-CMDQ-WQ]
+  434 [cmdq_flushq]               [cmdq_flushq]
+  435 [RSC-CMDQ-WQ]               [RSC-CMDQ-WQ]
+  436 [cmdq_flushq]               [cmdq_flushq]
+  437 [cmdq_flushq]               [cmdq_flushq]
+  438 [fts_wq]                    [fts_wq]
+  439 [irq/52-fts_ts]             [irq/52-fts_ts]
+  440 [irq/386-19024000.apusys-hw-logger] [irq/386-19024000.apusys-hw-logger]
+  441 [ammu_dram_free]            [ammu_dram_free]
+  442 [apupwr]                    [apupwr]
+  443 [irq/387-apu_ipi]           [irq/387-apu_ipi]
+  444 [irq/388-apusys_ce_excep]   [irq/388-apusys_ce_excep]
+  445 [irq/389-apusys_wdt]        [irq/389-apusys_wdt]
+  449 [mcupm_ts_wq]               [mcupm_ts_wq]
+  450 [LPM_LOG_WQ]                [LPM_LOG_WQ]
+  451 [spi0]                      [spi0]
+  452 [spi1]                      [spi1]
+  453 [spi2]                      [spi2]
+  454 [spi3]                      [spi3]
+  455 [spi4]                      [spi4]
+  457 [spi5]                      [spi5]
+  459 logd                        logd
+  460 lmkd                        lmkd
+  461 servicemanager              servicemanager
+  462 hwservicemanager            hwservicemanager
+  463 vndservicemanager           vndservicemanager /dev/vndbinder
+  464 [psimon]                    [psimon]
+  465 sh                          sh
+  478 vold                        vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  483 [kdmflush/254:52]           [kdmflush/254:52]
+  487 [jbd2/mmcblk0p16-8]         [jbd2/mmcblk0p16-8]
+  488 [ext4-rsv-conver]           [ext4-rsv-conver]
+  492 [jbd2/mmcblk0p17-8]         [jbd2/mmcblk0p17-8]
+  493 [ext4-rsv-conver]           [ext4-rsv-conver]
+  497 [jbd2/mmcblk0p7-8]          [jbd2/mmcblk0p7-8]
+  498 [ext4-rsv-conver]           [ext4-rsv-conver]
+  502 [jbd2/mmcblk0p6-8]          [jbd2/mmcblk0p6-8]
+  503 [ext4-rsv-conver]           [ext4-rsv-conver]
+  507 aee_aed64_v2                aee_aed64_v2
+  508 aee_aedv64_v2               aee_aedv64_v2
+  509 android.system.suspend-service android.system.suspend-service
+  510 keystore2                   keystore2 /data/misc/keystore
+  511 android.hardware.boot-service.mtk android.hardware.boot-service.mtk
+  512 android.hardware.security.keymint@3.0-service.tee android.hardware.security.keymint@3.0-service.tee
+  529 [f2fs_ckpt-254:52]          [f2fs_ckpt-254:52]
+  530 [f2fs_discard-254:52]       [f2fs_discard-254:52]
+  531 [f2fs_gc-254:52]            [f2fs_gc-254:52]
+  535 tombstoned                  tombstoned
+  580 [ext4-rsv-conver]           [ext4-rsv-conver]
+  581 [ext4-rsv-conver]           [ext4-rsv-conver]
+  582 [ext4-rsv-conver]           [ext4-rsv-conver]
+  583 [ext4-rsv-conver]           [ext4-rsv-conver]
+  584 [ext4-rsv-conver]           [ext4-rsv-conver]
+  585 [ext4-rsv-conver]           [ext4-rsv-conver]
+  586 [ext4-rsv-conver]           [ext4-rsv-conver]
+  587 [ext4-rsv-conver]           [ext4-rsv-conver]
+  588 [ext4-rsv-conver]           [ext4-rsv-conver]
+  589 [ext4-rsv-conver]           [ext4-rsv-conver]
+  590 [ext4-rsv-conver]           [ext4-rsv-conver]
+  591 [ext4-rsv-conver]           [ext4-rsv-conver]
+  592 [ext4-rsv-conver]           [ext4-rsv-conver]
+  593 [ext4-rsv-conver]           [ext4-rsv-conver]
+  594 [ext4-rsv-conver]           [ext4-rsv-conver]
+  595 [ext4-rsv-conver]           [ext4-rsv-conver]
+  596 [ext4-rsv-conver]           [ext4-rsv-conver]
+  597 [ext4-rsv-conver]           [ext4-rsv-conver]
+  598 [ext4-rsv-conver]           [ext4-rsv-conver]
+  599 [ext4-rsv-conver]           [ext4-rsv-conver]
+  600 [ext4-rsv-conver]           [ext4-rsv-conver]
+  601 [ext4-rsv-conver]           [ext4-rsv-conver]
+  602 [ext4-rsv-conver]           [ext4-rsv-conver]
+  603 [ext4-rsv-conver]           [ext4-rsv-conver]
+  604 [ext4-rsv-conver]           [ext4-rsv-conver]
+  605 [ext4-rsv-conver]           [ext4-rsv-conver]
+  606 [ext4-rsv-conver]           [ext4-rsv-conver]
+  607 [ext4-rsv-conver]           [ext4-rsv-conver]
+  608 [ext4-rsv-conver]           [ext4-rsv-conver]
+  609 [ext4-rsv-conver]           [ext4-rsv-conver]
+  610 [ext4-rsv-conver]           [ext4-rsv-conver]
+  611 [ext4-rsv-conver]           [ext4-rsv-conver]
+  612 [ext4-rsv-conver]           [ext4-rsv-conver]
+  613 [ext4-rsv-conver]           [ext4-rsv-conver]
+  614 [ext4-rsv-conver]           [ext4-rsv-conver]
+  615 [ext4-rsv-conver]           [ext4-rsv-conver]
+  616 [ext4-rsv-conver]           [ext4-rsv-conver]
+  639 statsd                      statsd
+  640 netd                        netd
+  641 zygote64                    zygote64
+  645 zygote                      zygote
+  648 iptables-restore            iptables-restore --noflush -w -v
+  649 ip6tables-restore           ip6tables-restore --noflush -w -v
+  654 android.hidl.allocator@1.0-service android.hidl.allocator@1.0-service
+  656 android.hardware.audio.service.mediatek android.hardware.audio.service.mediatek
+  657 android.hardware.camera.provider-V1-external-service android.hardware.camera.provider-V1-external-service
+  659 android.hardware.drm-service.clearkey android.hardware.drm-service.clearkey
+  660 android.hardware.gatekeeper-service.tee android.hardware.gatekeeper-service.tee
+  662 android.hardware.graphics.allocator-V2-service-mediatek android.hardware.graphics.allocator-V2-service-mediatek
+  664 android.hardware.graphics.composer@3.2-service android.hardware.graphics.composer@3.2-service
+  665 android.hardware.health-service.example android.hardware.health-service.example
+  666 android.hardware.media.c2@1.2-mediatek-64b android.hardware.media.c2@1.2-mediatek-64b
+  668 android.hardware.sensors-service.multihal android.hardware.sensors-service.multihal
+  670 android.hardware.usb-aidl-service.mediatekv1.0 android.hardware.usb-aidl-service.mediatekv1.0
+  672 android.hardware.usb.gadget-aidl-service.mediatekv1.0 android.hardware.usb.gadget-aidl-service.mediatekv1.0
+  673 android.hardware.bluetooth-service.default android.hardware.bluetooth-service.default
+  674 android.hardware.cas-service.example android.hardware.cas-service.example
+  676 android.hardware.lights-service.mediatek android.hardware.lights-service.mediatek
+  680 android.hardware.memtrack-service.mediatek android.hardware.memtrack-service.mediatek
+  681 vendor.mediatek.hardware.mtkpower_applist-service.mediatek vendor.mediatek.hardware.mtkpower_applist-service.mediatek
+  683 android.hardware.thermal-service.mediatek android.hardware.thermal-service.mediatek
+  686 vendor.mediatek.hardware.nvram-service vendor.mediatek.hardware.nvram-service
+  690 android.hardware.drm-service.widevine android.hardware.drm-service.widevine
+  691 audioserver                 audioserver
+  693 credstore                   credstore /data/misc/credstore
+  695 gpuservice                  gpuservice
+  704 surfaceflinger              surfaceflinger
+  707 android.hardware.audio.parameter_parser.service android.hardware.audio.parameter_parser.service
+  759 [kdmflush/254:53]           [kdmflush/254:53]
+  760 fpsgo                       fpsgo
+  763 gbe                         gbe
+  764 [kdmflush/254:54]           [kdmflush/254:54]
+  777 wlan_assistant              wlan_assistant
+  779 touch_boost                 touch_boost
+  790 [kbase_event]               [kbase_event]
+  872 drmserver32                 drmserver32
+  878 traced_probes               traced_probes
+  879 traced                      traced
+  887 thermal_core                thermal_core
+  908 vendor.mediatek.hardware.mtkpower-service.mediatek vendor.mediatek.hardware.mtkpower-service.mediatek
+  909 cameraserver                cameraserver
+  911 incidentd                   incidentd
+  912 installd                    installd
+  915 media.extractor             media.extractor aextractor
+  916 media.metrics               media.metrics diametrics
+  917 storaged                    storaged
+  922 wificond                    wificond
+  924 lbs_dbg_ext                 lbs_dbg_ext
+  925 thermald                    thermald
+  926 mediaserver                 mediaserver
+  927 mobile_log_d                mobile_log_d
+  928 netdiag                     netdiag
+  929 camerahalserver             camerahalserver
+  932 eara_io_service             eara_io_service
+  954 hyb_vpud-64b                hyb_vpud-64b -f
+  956 vendor.mediatek.hardware.hdmi_aidl-service vendor.mediatek.hardware.hdmi_aidl-service
+  960 vendor.mediatek.hardware.mmlpq@V1-service vendor.mediatek.hardware.mmlpq@V1-service
+  961 vendor.mediatek.hardware.pq_aidl-service vendor.mediatek.hardware.pq_aidl-service
+  963 media.swcodec               media.swcodec oid.media.swcodec/bin/mediaswcodec
+  966 gatekeeperd                 gatekeeperd /data/misc/gatekeeper
+  976 update_engine               update_engine --logtostderr --logtofile --foreground
+  978 netdagent                   netdagent
+  980 tee-supplicant              tee-supplicant
+  999 [optee_bus_scan]            [optee_bus_scan]
+ 1085 system_server               system_server
+ 1399 android.hardware.wifi-service-lazy android.hardware.wifi-service-lazy
+ 1400 [eth0-fpe]                  [eth0-fpe]
+ 1450 com.android.systemui        com.android.systemui
+ 1510 com.android.networkstack.process com.android.networkstack.process
+ 1553 com.mediatek.smartratswitch com.mediatek.smartratswitch
+ 1562 webview_zygote              webview_zygote
+ 1585 com.android.se              com.android.se
+ 1853 [kbase_event]               [kbase_event]
+ 1973 com.android.providers.media.module com.android.providers.media.module
+ 1974 batterywarning              batterywarning
+ 2170 [kbase_event]               [kbase_event]
+ 2259 [kworker/4:0H-kblockd]      [kworker/4:0H-kblockd]
+ 2376 netdiag                     netdiag
+ 2387 sh                          sh -c trace -i any -s 0 -c 111111 -w /tcpdump_NTLog_2026_0514_170256_start.cap.tmp 2>&1
+ 2388 trace                       trace -i any -s 0 -c 111111 -w /tcpdump_NTLog_2026_0514_170256_start.cap.tmp
+ 3480 [kworker/5:2-events]        [kworker/5:2-events]
+ 5393 [kworker/u16:3+vcore_wq]    [kworker/u16:3+vcore_wq]
+ 5610 sh                          sh -c CLASSPATH=/data/local/tmp/scrcpy-server.jar app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+ 5612 app_process                 app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+ 5623 app_process                 app_process / com.genymobile.scrcpy.CleanUp 0 -1 false false -1 -1
+ 6181 adbd                        adbd --root_seclabel=u:r:su:s0
+ 6194 [kworker/3:0-events]        [kworker/3:0-events]
+ 7138 abb                         abb
+ 7306 [kworker/0:0]               [kworker/0:0]
+ 7408 [kworker/4:2-events]        [kworker/4:2-events]
+ 7782 [kworker/0:2-events]        [kworker/0:2-events]
+ 8375 [kworker/7:1H-kverityd]     [kworker/7:1H-kverityd]
+11120 [kworker/2:0H-kblockd]      [kworker/2:0H-kblockd]
+13973 com.android.permissioncontroller com.android.permissioncontroller
+18069 [kworker/4:1H-kblockd]      [kworker/4:1H-kblockd]
+18637 com.android.settings        com.android.settings
+18703 [kworker/u17:0-kbase_pm_poweroff_wait] [kworker/u17:0-kbase_pm_poweroff_wait]
+18985 [kworker/u17:2+AWINIC WQ]   [kworker/u17:2+AWINIC WQ]
+19168 [kworker/3:2-sock_diag_events] [kworker/3:2-sock_diag_events]
+19171 [kworker/1:2-events]        [kworker/1:2-events]
+19374 com.android.deskclock       com.android.deskclock
+19391 [kworker/0:3H-kverityd]     [kworker/0:3H-kverityd]
+19407 [kbase_event]               [kbase_event]
+19426 [kworker/6:2H-kblockd]      [kworker/6:2H-kblockd]
+19735 [kworker/2:0-events]        [kworker/2:0-events]
+20312 [kworker/2:1H]              [kworker/2:1H]
+20693 [kworker/u16:0-ged_fence]   [kworker/u16:0-ged_fence]
+20696 [kworker/u16:6-adb]         [kworker/u16:6-adb]
+20699 [kworker/3:2H-kblockd]      [kworker/3:2H-kblockd]
+20866 [kworker/3:0H-kblockd]      [kworker/3:0H-kblockd]
+21117 [kworker/7:1-events_power_efficient] [kworker/7:1-events_power_efficient]
+21150 [kworker/5:0-mm_percpu_wq]  [kworker/5:0-mm_percpu_wq]
+21151 [kworker/1:1-events_freezable_power_] [kworker/1:1-events_freezable_power_]
+21475 [kworker/5:1H-kblockd]      [kworker/5:1H-kblockd]
+21488 [kworker/2:2-mm_percpu_wq]  [kworker/2:2-mm_percpu_wq]
+21491 [kworker/u16:1-cmdq_pkt_destroy_wq] [kworker/u16:1-cmdq_pkt_destroy_wq]
+21492 [kworker/u16:5-events_unbound] [kworker/u16:5-events_unbound]
+21567 [kworker/u17:3-ged_notify_sw_vsync] [kworker/u17:3-ged_notify_sw_vsync]
+21842 [kworker/6:2-events_freezable_power_] [kworker/6:2-events_freezable_power_]
+21865 [kworker/0:1H-kverityd]     [kworker/0:1H-kverityd]
+21988 [kworker/5:0H]              [kworker/5:0H]
+22024 [kworker/7:0H-kverityd]     [kworker/7:0H-kverityd]
+22157 [kworker/7:2-mm_percpu_wq]  [kworker/7:2-mm_percpu_wq]
+22286 [kworker/u17:4-ged_notify_sw_vsync] [kworker/u17:4-ged_notify_sw_vsync]
+22299 [kworker/6:0-events]        [kworker/6:0-events]
+22632 com.android.launcher3       com.android.launcher3
+22656 [kbase_event]               [kbase_event]
+22689 [kworker/4:1-events_freezable_power_] [kworker/4:1-events_freezable_power_]
+22690 com.android.inputmethod.latin com.android.inputmethod.latin
+22757 android.ext.services        android.ext.services
+22800 android.hardware.neuralnetworks-shim-service-mtk android.hardware.neuralnetworks-shim-service-mtk
+23081 [kworker/6:1-mm_percpu_wq]  [kworker/6:1-mm_percpu_wq]
+23084 com.android.keychain        com.android.keychain
+23090 [kworker/7:0-mm_percpu_wq]  [kworker/7:0-mm_percpu_wq]
+23140 artd                        artd
+23144 [kworker/3:1-mm_percpu_wq]  [kworker/3:1-mm_percpu_wq]
+23148 [kworker/u16:2-mtk-vcodec-enc] [kworker/u16:2-mtk-vcodec-enc]
+23156 ps                          ps -A -o PID,NAME,ARGS
+23983 [kbase_event]               [kbase_event]
+24440 [kworker/1:0H-kblockd]      [kworker/1:0H-kblockd]
+25712 [kworker/1:1H]              [kworker/1:1H]
+26364 [kworker/6:0H-kverityd]     [kworker/6:0H-kverityd]

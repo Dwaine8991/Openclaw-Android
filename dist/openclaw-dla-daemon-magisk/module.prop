@@ -1,0 +1,6 @@
+id=openclaw-dla-daemon
+name=OpenClaw DLA Daemon
+version=0.1.0
+versionCode=1
+author=OpenClaw
+description=Starts a root OpenClaw Qwen3 DLA bridge for MTK APUSYS/NPU devices.

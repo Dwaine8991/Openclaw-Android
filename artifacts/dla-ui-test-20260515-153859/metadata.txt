@@ -1,0 +1,4 @@
+stamp=20260515-153859
+serial=0123456789ABCDEF
+package=io.github.openclawcn.app
+

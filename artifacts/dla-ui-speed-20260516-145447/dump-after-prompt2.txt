@@ -1,0 +1,1 @@
+﻿UI hierchary dumped to: /sdcard/openclaw-after-prompt2.xml

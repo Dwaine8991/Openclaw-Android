@@ -1,0 +1,1 @@
+﻿drwxrwxrwx 2 root root 3452 2026-05-16 12:16 /data/local/tmp/openclaw-perf-run

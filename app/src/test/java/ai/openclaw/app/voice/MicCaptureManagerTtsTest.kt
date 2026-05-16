@@ -57,6 +57,33 @@ class MicCaptureManagerTtsTest {
     }
 
   @Test
+  fun finalStreamingTtsBatchesQueuedRemainingChunksForTalkModePipeline() =
+    runTest {
+      val spoken = mutableListOf<String>()
+      val manager =
+        MicCaptureManager(
+          context = RuntimeEnvironment.getApplication(),
+          scope = this,
+          sendToGateway = { _, _ -> "run-batch" },
+          speakAssistantReply = { text -> spoken.add(text) },
+          isAssistantTtsReady = { true },
+        )
+      manager.setPrivateField("pendingRunId", "run-batch")
+
+      manager.handleGatewayEvent(
+        "chat",
+        chatPayload(
+          runId = "run-batch",
+          state = "final",
+          text = "Second sentence. Third sentence.",
+        ),
+      )
+      advanceUntilIdle()
+
+      assertEquals(listOf("Second sentence. Third sentence."), spoken)
+    }
+
+  @Test
   fun abortedChatEventKeepsGeneratedAssistantTextVisible() =
     runTest {
       val manager =

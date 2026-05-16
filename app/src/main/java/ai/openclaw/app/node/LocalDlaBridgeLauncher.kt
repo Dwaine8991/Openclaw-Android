@@ -376,7 +376,7 @@ class LocalDlaBridgeLauncher(
     const val DEFAULT_LLM_DIR = "/data/local/tmp/llm_sdk"
     const val DEFAULT_CONFIG = "config_np8-qwen3-1.7b.yaml"
     const val DEFAULT_PREFORMATTER = "Qwen3NoInputNoThink"
-    const val DEFAULT_MAX_TOKENS = 256
+    const val DEFAULT_MAX_TOKENS = 384
     const val MIN_AVAILABLE_KB = 1_250_000
     const val APP_PSS_LIMIT_KB = 2_200_000
     const val REQUEST_TIMEOUT_MS = 120_000

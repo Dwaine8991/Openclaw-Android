@@ -1,0 +1,4 @@
+﻿serial=0123456789ABCDEF
+package=io.github.openclawcn.app
+flow=force-stop launch voice-tab ASR/TTS warmup idle
+started=2026-05-16T16:55:53.4832554+08:00

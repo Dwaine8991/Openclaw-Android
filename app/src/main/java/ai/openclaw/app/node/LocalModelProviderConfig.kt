@@ -17,7 +17,7 @@ object LocalModelProviderConfig {
   const val DLA_BASE_URL: String = "http://127.0.0.1:8081/v1"
   const val DLA_API_KEY: String = "openclaw-local-dla"
   private const val DLA_CONTEXT_WINDOW: Int = 32_768
-  private const val DLA_MAX_TOKENS: Int = 256
+  private const val DLA_MAX_TOKENS: Int = 384
 
   private val json = Json { prettyPrint = true }
   private val secureRandom = SecureRandom()

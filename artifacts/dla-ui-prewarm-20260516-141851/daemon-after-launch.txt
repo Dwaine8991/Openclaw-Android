@@ -1,0 +1,21 @@
+﻿starting openclaw-dla-daemon: node=/data/local/tmp/openclaw-dla-daemon/libopenclaw_node.so bridge=/data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs port=8081
+OpenClaw DLA bridge listening on 127.0.0.1:8081
+[openclaw-dla-perf] id=warmup-1778912333434 phase=warmup_start t=1778912333435 elapsedMs=1 reason=startup generate=false
+[openclaw-dla-perf] id=warmup-1778912333434 phase=persistent_server_starting t=1778912333676 elapsedMs=242 bin=/data/local/tmp/llm_sdk/openclaw-qwen-dla-server port=18082
+[openclaw-dla-server] PowerHAL Enable
+[openclaw-dla-server] Begin model init...
+[openclaw-dla-server] Done model init. (Time taken: 3.22503s)
+[openclaw-dla-server] Initialized HuggingFace tokenizer.
+[openclaw-dla-server] OpenClaw Qwen DLA server tokenizer vocab size: 151669
+openclaw-qwen-dla-server listening on 127.0.0.1:18082
+[openclaw-dla-perf] id=warmup-1778912333434 phase=persistent_server_ready t=1778912339304 elapsedMs=5870 pid=21202
+[openclaw-dla-perf] id=warmup-1778912333434 phase=warmup_completed t=1778912339306 elapsedMs=5872 generated=false
+[openclaw-dla-perf] id=warmup-1778912339823 phase=warmup_start t=1778912339823 elapsedMs=0 reason=http generate=false
+[openclaw-dla-perf] id=warmup-1778912339837 phase=warmup_start t=1778912339837 elapsedMs=0 reason=http generate=false
+[openclaw-dla-perf] id=warmup-1778912339823 phase=persistent_server_ready t=1778912339850 elapsedMs=27 reused=true
+[openclaw-dla-perf] id=warmup-1778912339823 phase=warmup_completed t=1778912339850 elapsedMs=27 generated=false
+[openclaw-dla-perf] id=warmup-1778912339837 phase=persistent_server_ready t=1778912339875 elapsedMs=38 reused=true
+[openclaw-dla-perf] id=warmup-1778912339837 phase=warmup_completed t=1778912339876 elapsedMs=39 generated=false
+[openclaw-dla-perf] id=warmup-1778912339933 phase=warmup_start t=1778912339933 elapsedMs=0 reason=http generate=false
+[openclaw-dla-perf] id=warmup-1778912339933 phase=persistent_server_ready t=1778912339950 elapsedMs=17 reused=true
+[openclaw-dla-perf] id=warmup-1778912339933 phase=warmup_completed t=1778912339951 elapsedMs=18 generated=false

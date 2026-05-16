@@ -1,0 +1,4 @@
+﻿LISTEN      0      511    127.0.0.1:8081               0.0.0.0:*                   users:(("MainThread",pid=20835,fd=18))
+LISTEN      0      511    127.0.0.1:18790              0.0.0.0:*                   users:(("clawdbot-gatewa",pid=20972,fd=20))
+LISTEN      0      8      127.0.0.1:18082              0.0.0.0:*                   users:(("openclaw-qwen-d",pid=20854,fd=250))
+LISTEN      0      511      [::1]:18790                 [::]:*                   users:(("clawdbot-gatewa",pid=20972,fd=21))

@@ -49,6 +49,7 @@ import ai.openclaw.app.node.asStringOrNull
 import ai.openclaw.app.node.invokeErrorFromThrowable
 import ai.openclaw.app.node.parseHexColorArgb
 import ai.openclaw.app.protocol.OpenClawCanvasA2UIAction
+import ai.openclaw.app.voice.AgenewProductVoicePrompt
 import ai.openclaw.app.voice.LocalMnnAsrEngine
 import ai.openclaw.app.voice.LocalMnnAsrStatus
 import ai.openclaw.app.voice.LocalTtsBackendFactory
@@ -489,10 +490,11 @@ class NodeRuntime(
         // Notify MicCaptureManager of the idempotency key *before* the network
         // call so pendingRunId is set before any chat events can arrive.
         onRunIdKnown(idempotencyKey)
+        val guidedMessage = buildVoiceGatewayMessage(message)
         val params =
           buildJsonObject {
             put("sessionKey", JsonPrimitive(resolveMainSessionKey()))
-            put("message", JsonPrimitive(message))
+            put("message", JsonPrimitive(guidedMessage))
             put("thinking", JsonPrimitive(chatThinkingLevel.value))
             put("timeoutMs", JsonPrimitive(RK_VOICE_CHAT_RUN_TIMEOUT_MS))
             put("idempotencyKey", JsonPrimitive(idempotencyKey))
@@ -532,6 +534,19 @@ class NodeRuntime(
       inputManager = voiceAudioInputManager,
       onMnnAvailabilityChanged = { prefs.setVoiceMnnAvailable(it) },
     )
+  }
+
+  private fun buildVoiceGatewayMessage(message: String): String {
+    val docsDir =
+      localOpenClawHome
+        .resolve(".openclaw")
+        .resolve("workspace")
+        .resolve("product-docs")
+    val guided = AgenewProductVoicePrompt.build(message, docsDir)
+    if (guided != message) {
+      Log.d("OpenClawVoice", "voice product prompt expanded userChars=${message.length} promptChars=${guided.length}")
+    }
+    return guided
   }
 
   init {

@@ -1,0 +1,5 @@
+﻿  bash arg: -p
+  bash arg: io.github.openclawcn.app
+  bash arg: 1
+Events injected: 1
+## Network stats: elapsed time=74ms (0ms mobile, 0ms wifi, 74ms not connected)

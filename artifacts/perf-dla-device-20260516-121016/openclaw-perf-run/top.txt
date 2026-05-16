@@ -1,0 +1,432 @@
+===== sample 1 1778904977249 =====
+Tasks: 503 total,   3 running, 500 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  5592484K used,  1823464K free,     1024K buffers
+ Swap:  7415944K total,   496896K used,  6919048K free,  2764292K cached
+800%cpu 126%user   0%nice 106%sys 535%idle   0%iow  26%irq   6%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+12431 root         20   0  11G  39M  31M R 97.0   0.5   0:00.55 openclaw-qwen-dla-server 18082
+10907 root          0 -20    0    0    0 R 61.7   0.0   4:15.97 [kworker/u17:3+AWINIC WQ]
+12450 root         20   0  10G 4.7M 3.6M R 23.5   0.0   0:00.11 top -b -n 1
+ 5612 root         20   0  16G  94M  80M S 14.7   1.2  32:53.03 app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+  963 mediacodec   20   0  11G 6.8M 6.1M S 11.7   0.0  73:37.96 media.swcodec oid.media.swcodec/bin/mediaswcodec
+12294 root         20   0  11G  47M  26M S  5.8   0.6   0:01.86 libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+10348 root          0 -20    0    0    0 I  2.9   0.0   7:51.74 [kworker/u17:0-kbase_pm_poweroff_wait]
+ 9342 root         20   0    0    0    0 I  2.9   0.0   0:21.71 [kworker/u16:0-adb]
+ 6181 root         20   0  11G 4.7M 2.5M S  2.9   0.0  41:16.08 adbd --root_seclabel=u:r:su:s0
+  683 system       20   0  10G 2.9M 2.6M S  2.9   0.0   4:46.52 android.hardware.thermal-service.mediatek
+  640 root         20   0  11G 2.1M 2.1M S  2.9   0.0   0:46.18 netd
+  459 logd         18  -2  11G 4.6M 3.1M S  2.9   0.0  24:43.80 logd
+   54 root         20   0    0    0    0 S  2.9   0.0   0:12.36 [ksoftirqd/6]
+12451 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:00.06 head -n 35
+12308 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:00.46 sh /data/local/tmp/openclaw_perf_sample.sh
+12076 root         20   0    0    0    0 I  0.0   0.0   0:00.10 [kworker/7:2-events]
+12055 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:2-mm_percpu_wq]
+11868 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+11861 u0_a123      20   0  12G 347M  36M S  0.0   4.7   1:25.20 clawdbot-gateway
+11856 root         20   0    0    0    0 I  0.0   0.0   0:01.11 [kworker/u16:1-flush-254:52]
+11845 u0_a123      20   0  11G  50M  33M S  0.0   0.6   0:01.61 openclaw-cn
+11793 u0_a123      10 -10  17G 261M 196M S  0.0   3.6   0:21.34 io.github.openclawcn.app
+11713 root          0 -20    0    0    0 I  0.0   0.0   2:02.58 [kworker/u17:4-ged_notify_sw_vsync]
+11696 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/7:0-mm_percpu_wq]
+11692 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:1-events]
+11678 root         20   0    0    0    0 I  0.0   0.0   0:00.38 [kworker/u16:5-cmdq_pkt_destroy_wq]
+11612 root          0 -20    0    0    0 I  0.0   0.0   0:00.07 [kworker/7:2H-kverityd]
+11388 root         20   0    0    0    0 I  0.0   0.0   0:06.10 [kworker/u16:4-devfreq_wq]
+11317 root          0 -20    0    0    0 I  0.0   0.0   0:00.20 [kworker/0:0H-kverityd]
+11212 root          0 -20    0    0    0 I  0.0   0.0   2:22.26 [kworker/u17:1-mali_jd]
+===== sample 2 1778904982213 =====
+Tasks: 501 total,   1 running, 500 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  5615528K used,  1800420K free,     1024K buffers
+ Swap:  7415944K total,   496896K used,  6919048K free,  2723684K cached
+800%cpu  44%user   0%nice 138%sys 582%idle   0%iow  29%irq   6%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+12431 root         20   0  14G  98M  32M S 70.5   1.3   0:06.67 openclaw-qwen-dla-server 18082
+10907 root          0 -20    0    0    0 D 55.8   0.0   4:19.39 [kworker/u17:3+AWINIC WQ]
+12622 root         20   0  10G 4.9M 3.7M R 23.5   0.0   0:00.11 top -b -n 1
+  963 mediacodec   20   0  11G 6.8M 6.1M S 17.6   0.0  73:38.73 media.swcodec oid.media.swcodec/bin/mediaswcodec
+ 5612 root         20   0  16G  94M  80M S 14.7   1.2  32:54.01 app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+10348 root          0 -20    0    0    0 I  5.8   0.0   7:52.04 [kworker/u17:0-kbase_pm_poweroff_wait]
+ 6181 root         20   0  11G 4.7M 2.5M S  2.9   0.0  41:16.27 adbd --root_seclabel=u:r:su:s0
+  691 audioserver  20   0  12G 7.3M 5.8M S  2.9   0.1  42:06.42 audioserver
+  664 system       -3   0  11G 3.9M 2.6M S  2.9   0.0 167:45.06 android.hardware.graphics.composer@3.2-service
+  656 audioserver  20   0  11G 2.9M 2.5M S  2.9   0.0  23:34.85 android.hardware.audio.service.mediatek
+  164 root         RT   0    0    0    0 S  2.9   0.0   9:48.49 [irq/281-11201000.usb0]
+   23 root         RT   0    0    0    0 S  2.9   0.0   0:38.30 [migration/1]
+12623 root         20   0  10G 3.4M 2.8M S  0.0   0.0   0:00.02 head -n 35
+12308 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:00.91 sh /data/local/tmp/openclaw_perf_sample.sh
+12294 root         20   0  11G  47M  26M S  0.0   0.6   0:02.16 libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+12076 root         20   0    0    0    0 I  0.0   0.0   0:00.13 [kworker/7:2-events]
+12055 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:2-mm_percpu_wq]
+11868 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+11861 u0_a123      20   0  12G 344M  33M S  0.0   4.7   1:25.27 clawdbot-gateway
+11856 root         20   0    0    0    0 I  0.0   0.0   0:01.12 [kworker/u16:1-devfreq_wq]
+11845 u0_a123      20   0  11G  48M  30M S  0.0   0.6   0:01.61 openclaw-cn
+11793 u0_a123      10 -10  17G 261M 196M S  0.0   3.6   0:21.34 io.github.openclawcn.app
+11713 root          0 -20    0    0    0 I  0.0   0.0   2:02.58 [kworker/u17:4-ged_notify_sw_vsync]
+11696 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/7:0-mm_percpu_wq]
+11692 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:1-events]
+11612 root          0 -20    0    0    0 I  0.0   0.0   0:00.07 [kworker/7:2H-kverityd]
+11317 root          0 -20    0    0    0 I  0.0   0.0   0:00.20 [kworker/0:0H-kblockd]
+11212 root          0 -20    0    0    0 I  0.0   0.0   2:22.26 [kworker/u17:1-mali_jd]
+11180 root         20   0    0    0    0 I  0.0   0.0   0:00.56 [kworker/7:1-events]
+11081 root         20   0    0    0    0 I  0.0   0.0   0:00.08 [kworker/2:2-mm_percpu_wq]
+===== sample 3 1778904987888 =====
+Tasks: 501 total,   1 running, 500 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6425932K used,   990016K free,     1024K buffers
+ Swap:  7415944K total,   496896K used,  6919048K free,  2681484K cached
+800%cpu  32%user   0%nice 126%sys 603%idle   0%iow  32%irq   6%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+10907 root          0 -20    0    0    0 D 55.8   0.0   4:22.41 [kworker/u17:3+AWINIC WQ]
+12790 root         20   0  10G 4.7M 3.6M R 29.4   0.0   0:00.11 top -b -n 1
+  963 mediacodec   20   0  11G 6.8M 6.1M S 20.5   0.0  73:39.63 media.swcodec oid.media.swcodec/bin/mediaswcodec
+ 5612 root         20   0  16G  94M  80M S 17.6   1.3  32:55.27 app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+12431 root         20   0  14G 101M  34M S  8.8   1.3   0:08.52 openclaw-qwen-dla-server 18082
+10348 root          0 -20    0    0    0 I  8.8   0.0   7:52.33 [kworker/u17:0-kbase_pm_poweroff_wait]
+ 6181 root         20   0  11G 4.7M 2.5M S  5.8   0.0  41:16.53 adbd --root_seclabel=u:r:su:s0
+  927 system       20   0  10G 4.8M 1.9M S  5.8   0.0 108:15.27 mobile_log_d
+12294 root         20   0  11G  47M  27M S  2.9   0.6   0:02.30 libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+ 7716 root         20   0    0    0    0 I  2.9   0.0   0:01.17 [kworker/6:0-events]
+ 1510 network_stack 20  0  16G  65M  38M S  2.9   0.8  28:12.98 com.android.networkstack.process
+  704 system       -3   0  11G  21M  14M S  2.9   0.2 168:08.00 surfaceflinger
+  691 audioserver  20   0  12G 7.3M 5.8M S  2.9   0.1  42:06.53 audioserver
+  664 system       -3   0  11G 3.9M 2.6M S  2.9   0.0 167:45.22 android.hardware.graphics.composer@3.2-service
+  459 logd         18  -2  11G 4.7M 3.1M S  2.9   0.0  24:44.11 logd
+  164 root         RT   0    0    0    0 S  2.9   0.0   9:48.54 [irq/281-11201000.usb0]
+   13 root         20   0    0    0    0 S  2.9   0.0  15:17.58 [ksoftirqd/0]
+12791 root         20   0  10G 3.5M 2.8M S  0.0   0.0   0:00.03 head -n 35
+12308 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:01.41 sh /data/local/tmp/openclaw_perf_sample.sh
+12076 root         20   0    0    0    0 I  0.0   0.0   0:00.13 [kworker/7:2-events]
+12055 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:2-mm_percpu_wq]
+11868 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+11861 u0_a123      20   0  12G 344M  33M S  0.0   4.7   1:25.37 clawdbot-gateway
+11856 root         20   0    0    0    0 I  0.0   0.0   0:01.16 [kworker/u16:1-devfreq_wq]
+11845 u0_a123      20   0  11G  48M  30M S  0.0   0.6   0:01.61 openclaw-cn
+11793 u0_a123      10 -10  17G 261M 196M S  0.0   3.6   0:21.34 io.github.openclawcn.app
+11713 root          0 -20    0    0    0 I  0.0   0.0   2:02.58 [kworker/u17:4-ged_notify_sw_vsync]
+11696 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/7:0-mm_percpu_wq]
+11692 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:1-events]
+11612 root          0 -20    0    0    0 I  0.0   0.0   0:00.07 [kworker/7:2H-kverityd]
+===== sample 4 1778904993103 =====
+Tasks: 501 total,   4 running, 497 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6441952K used,   973996K free,     1024K buffers
+ Swap:  7415944K total,   496640K used,  6919304K free,  2682612K cached
+800%cpu  41%user   0%nice 132%sys 591%idle   0%iow  32%irq   3%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+10907 root          0 -20    0    0    0 D 52.9   0.0   4:25.24 [kworker/u17:3+AWINIC WQ]
+12941 root         20   0  10G 4.9M 3.7M R 26.4   0.0   0:00.11 top -b -n 1
+ 5612 root         20   0  16G  94M  80M S 20.5   1.3  32:56.58 app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+  963 mediacodec   20   0  11G 6.8M 6.1M S 17.6   0.0  73:40.55 media.swcodec oid.media.swcodec/bin/mediaswcodec
+12431 root         20   0  14G 101M  34M S  8.8   1.3   0:09.14 openclaw-qwen-dla-server 18082
+  927 system       20   0  10G 5.1M 1.9M S  8.8   0.0 108:15.73 mobile_log_d
+  459 logd         18  -2  11G 4.7M 3.1M S  8.8   0.0  24:44.43 logd
+10348 root          0 -20    0    0    0 I  5.8   0.0   7:52.65 [kworker/u17:0-kbase_pm_poweroff_wait]
+ 6181 root         20   0  11G 4.7M 2.5M S  5.8   0.0  41:16.83 adbd --root_seclabel=u:r:su:s0
+ 1510 network_stack 20  0  16G  66M  38M S  2.9   0.9  28:13.07 com.android.networkstack.process
+  683 system       20   0  10G 2.9M 2.6M S  2.9   0.0   4:46.55 android.hardware.thermal-service.mediatek
+  664 system       -3   0  11G 3.9M 2.6M S  2.9   0.0 167:45.39 android.hardware.graphics.composer@3.2-service
+  656 audioserver  20   0  11G 2.9M 2.5M S  2.9   0.0  23:35.04 android.hardware.audio.service.mediatek
+   14 root         -2   0    0    0    0 I  2.9   0.0   6:51.55 [rcu_preempt]
+12942 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:00.03 head -n 35
+12308 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:01.82 sh /data/local/tmp/openclaw_perf_sample.sh
+12294 root         20   0  11G  47M  27M S  0.0   0.6   0:02.58 libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+12076 root         20   0    0    0    0 I  0.0   0.0   0:00.13 [kworker/7:2-events]
+12055 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:2-mm_percpu_wq]
+11868 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+11861 u0_a123      20   0  12G 344M  33M S  0.0   4.7   1:25.44 clawdbot-gateway
+11856 root         20   0    0    0    0 I  0.0   0.0   0:01.19 [kworker/u16:1-firmware:scmi]
+11845 u0_a123      20   0  11G  48M  30M S  0.0   0.6   0:01.61 openclaw-cn
+11793 u0_a123      10 -10  17G 261M 196M S  0.0   3.6   0:21.34 io.github.openclawcn.app
+11713 root          0 -20    0    0    0 I  0.0   0.0   2:02.58 [kworker/u17:4-ged_notify_sw_vsync]
+11696 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/7:0-mm_percpu_wq]
+11692 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:1-events]
+11612 root          0 -20    0    0    0 I  0.0   0.0   0:00.07 [kworker/7:2H-kverityd]
+11317 root          0 -20    0    0    0 I  0.0   0.0   0:00.20 [kworker/0:0H-kblockd]
+11212 root          0 -20    0    0    0 I  0.0   0.0   2:22.26 [kworker/u17:1-mali_jd]
+===== sample 5 1778904998182 =====
+Tasks: 501 total,   3 running, 498 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6414748K used,  1001200K free,     1024K buffers
+ Swap:  7415944K total,   496640K used,  6919304K free,  2639912K cached
+800%cpu  30%user   0%nice  85%sys 652%idle   0%iow  30%irq   3%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+10907 root          0 -20    0    0    0 R 54.5   0.0   4:28.01 [kworker/u17:3+AWINIC WQ]
+13109 root         20   0  10G 4.8M 3.7M R 24.2   0.0   0:00.09 top -b -n 1
+ 5612 root         20   0  16G  95M  80M S 15.1   1.3  32:57.50 app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+  963 mediacodec   20   0  11G 6.8M 6.1M S 15.1   0.0  73:41.27 media.swcodec oid.media.swcodec/bin/mediaswcodec
+10348 root          0 -20    0    0    0 R  6.0   0.0   7:52.94 [kworker/u17:0-kbase_pm_poweroff_wait]
+ 6181 root         20   0  11G 4.7M 2.5M S  3.0   0.0  41:17.02 adbd --root_seclabel=u:r:su:s0
+ 1510 network_stack 20  0  16G  64M  38M S  3.0   0.8  28:13.21 com.android.networkstack.process
+  656 audioserver  20   0  11G 2.9M 2.5M S  3.0   0.0  23:35.11 android.hardware.audio.service.mediatek
+  244 root         RT   0    0    0    0 S  3.0   0.0  22:30.48 [dis_ki-0]
+13110 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:00.02 head -n 35
+12431 root         20   0  14G 105M  37M S  0.0   1.4   0:10.86 openclaw-qwen-dla-server 18082
+12308 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:02.24 sh /data/local/tmp/openclaw_perf_sample.sh
+12294 root         20   0  11G  48M  27M S  0.0   0.6   0:02.66 libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+12076 root         20   0    0    0    0 I  0.0   0.0   0:00.15 [kworker/7:2-events]
+12055 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:2-mm_percpu_wq]
+11868 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+11861 u0_a123      20   0  12G 344M  33M S  0.0   4.7   1:25.49 clawdbot-gateway
+11856 root         20   0    0    0    0 I  0.0   0.0   0:01.22 [kworker/u16:1-adb]
+11845 u0_a123      20   0  11G  48M  30M S  0.0   0.6   0:01.61 openclaw-cn
+11793 u0_a123      10 -10  17G 261M 196M S  0.0   3.6   0:21.34 io.github.openclawcn.app
+11713 root          0 -20    0    0    0 I  0.0   0.0   2:02.58 [kworker/u17:4-ged_notify_sw_vsync]
+11696 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/7:0-mm_percpu_wq]
+11692 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:1-events]
+11612 root          0 -20    0    0    0 I  0.0   0.0   0:00.07 [kworker/7:2H-kverityd]
+11317 root          0 -20    0    0    0 I  0.0   0.0   0:00.20 [kworker/0:0H-kblockd]
+11212 root          0 -20    0    0    0 I  0.0   0.0   2:22.26 [kworker/u17:1-mali_jd]
+11180 root         20   0    0    0    0 I  0.0   0.0   0:00.56 [kworker/7:1-mm_percpu_wq]
+11081 root         20   0    0    0    0 I  0.0   0.0   0:00.08 [kworker/2:2-mm_percpu_wq]
+10425 root          0 -20    0    0    0 I  0.0   0.0   0:00.42 [kworker/6:1H-kverityd]
+10408 root         20   0    0    0    0 I  0.0   0.0   0:00.17 [kworker/5:1-mm_percpu_wq]
+===== sample 6 1778905002907 =====
+Tasks: 501 total,   2 running, 499 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6418272K used,   997676K free,     1024K buffers
+ Swap:  7415944K total,   496640K used,  6919304K free,  2640204K cached
+800%cpu  24%user   0%nice  91%sys 648%idle   0%iow  33%irq   3%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+10907 root          0 -20    0    0    0 R 54.5   0.0   4:30.50 [kworker/u17:3+AWINIC WQ]
+13260 root         20   0  10G 4.8M 3.6M R 24.2   0.0   0:00.09 top -b -n 1
+ 5612 root         20   0  16G  95M  80M S 18.1   1.3  32:58.23 app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+  963 mediacodec   20   0  11G 6.8M 6.1M S 12.1   0.0  73:41.86 media.swcodec oid.media.swcodec/bin/mediaswcodec
+10348 root          0 -20    0    0    0 I  9.0   0.0   7:53.21 [kworker/u17:0-kbase_pm_poweroff_wait]
+ 6181 root         20   0  11G 4.7M 2.5M S  6.0   0.0  41:17.18 adbd --root_seclabel=u:r:su:s0
+ 1510 network_stack 20  0  16G  65M  38M S  3.0   0.9  28:13.26 com.android.networkstack.process
+  691 audioserver  20   0  12G 7.3M 5.8M S  3.0   0.1  42:06.80 audioserver
+  164 root         RT   0    0    0    0 S  3.0   0.0   9:48.66 [irq/281-11201000.usb0]
+13261 root         20   0  10G 3.5M 2.8M S  0.0   0.0   0:00.02 head -n 35
+12431 root         20   0  14G 105M  37M S  0.0   1.4   0:10.86 openclaw-qwen-dla-server 18082
+12308 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:02.61 sh /data/local/tmp/openclaw_perf_sample.sh
+12294 root         20   0  11G  48M  27M S  0.0   0.6   0:02.66 libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+12076 root         20   0    0    0    0 I  0.0   0.0   0:00.16 [kworker/7:2-events]
+12055 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:2-mm_percpu_wq]
+11868 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+11861 u0_a123      20   0  12G 344M  33M S  0.0   4.7   1:25.52 clawdbot-gateway
+11856 root         20   0    0    0    0 I  0.0   0.0   0:01.24 [kworker/u16:1-devfreq_wq]
+11845 u0_a123      20   0  11G  48M  30M S  0.0   0.6   0:01.61 openclaw-cn
+11793 u0_a123      10 -10  17G 261M 196M S  0.0   3.6   0:21.34 io.github.openclawcn.app
+11713 root          0 -20    0    0    0 I  0.0   0.0   2:02.58 [kworker/u17:4-ged_notify_sw_vsync]
+11696 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/7:0-mm_percpu_wq]
+11692 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:1-events]
+11612 root          0 -20    0    0    0 I  0.0   0.0   0:00.07 [kworker/7:2H-kverityd]
+11317 root          0 -20    0    0    0 I  0.0   0.0   0:00.20 [kworker/0:0H-kblockd]
+11212 root          0 -20    0    0    0 I  0.0   0.0   2:22.26 [kworker/u17:1-mali_jd]
+11180 root         20   0    0    0    0 I  0.0   0.0   0:00.56 [kworker/7:1-mm_percpu_wq]
+11081 root         20   0    0    0    0 I  0.0   0.0   0:00.08 [kworker/2:2-events]
+10425 root          0 -20    0    0    0 I  0.0   0.0   0:00.42 [kworker/6:1H-kverityd]
+10408 root         20   0    0    0    0 I  0.0   0.0   0:00.17 [kworker/5:1-pm]
+===== sample 7 1778905007337 =====
+Tasks: 501 total,   1 running, 500 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6424960K used,   990988K free,     1024K buffers
+ Swap:  7415944K total,   496640K used,  6919304K free,  2640668K cached
+800%cpu  24%user   0%nice 127%sys 612%idle   0%iow  30%irq   6%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+10907 root          0 -20    0    0    0 D 54.5   0.0   4:33.01 [kworker/u17:3+AWINIC WQ]
+13412 root         20   0  10G 4.7M 3.6M R 24.2   0.0   0:00.10 top -b -n 1
+ 5612 root         20   0  16G  95M  80M S 18.1   1.3  32:58.98 app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+  963 mediacodec   20   0  11G 6.8M 6.1M S 15.1   0.0  73:42.45 media.swcodec oid.media.swcodec/bin/mediaswcodec
+10348 root          0 -20    0    0    0 I  6.0   0.0   7:53.49 [kworker/u17:0-kbase_pm_poweroff_wait]
+ 6181 root         20   0  11G 4.7M 2.5M S  6.0   0.0  41:17.34 adbd --root_seclabel=u:r:su:s0
+    1 root         20   0  11G 4.1M 2.8M S  6.0   0.0  27:22.62 init second_stage
+11856 root         20   0    0    0    0 I  3.0   0.0   0:01.26 [kworker/u16:1-devfreq_wq]
+10425 root          0 -20    0    0    0 I  3.0   0.0   0:00.42 [kworker/6:1H-kverityd]
+ 1510 network_stack 20  0  16G  67M  38M S  3.0   0.9  28:13.36 com.android.networkstack.process
+ 1085 system       18  -2  22G 226M 139M S  3.0   3.1  51:46.95 system_server
+  704 system       -3   0  11G  21M  14M S  3.0   0.2 168:08.20 surfaceflinger
+  691 audioserver  20   0  12G 7.3M 5.8M S  3.0   0.1  42:06.87 audioserver
+  164 root         RT   0    0    0    0 S  3.0   0.0   9:48.69 [irq/281-11201000.usb0]
+   60 root         20   0    0    0    0 S  3.0   0.0   0:13.55 [ksoftirqd/7]
+   54 root         20   0    0    0    0 S  3.0   0.0   0:12.58 [ksoftirqd/6]
+13413 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:00.01 head -n 35
+12431 root         20   0  14G 105M  37M S  0.0   1.4   0:10.86 openclaw-qwen-dla-server 18082
+12308 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:03.03 sh /data/local/tmp/openclaw_perf_sample.sh
+12294 root         20   0  11G  48M  27M S  0.0   0.6   0:02.66 libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+12076 root         20   0    0    0    0 I  0.0   0.0   0:00.16 [kworker/7:2-events]
+12055 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:2-mm_percpu_wq]
+11868 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+11861 u0_a123      20   0  12G 344M  33M S  0.0   4.7   1:25.65 clawdbot-gateway
+11845 u0_a123      20   0  11G  48M  30M S  0.0   0.6   0:01.62 openclaw-cn
+11793 u0_a123      10 -10  17G 261M 196M S  0.0   3.6   0:21.39 io.github.openclawcn.app
+11713 root          0 -20    0    0    0 I  0.0   0.0   2:02.58 [kworker/u17:4-ged_notify_sw_vsync]
+11696 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/7:0-mm_percpu_wq]
+11692 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:1-events]
+11612 root          0 -20    0    0    0 I  0.0   0.0   0:00.07 [kworker/7:2H-kverityd]
+===== sample 8 1778905011803 =====
+Tasks: 501 total,   1 running, 500 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6424860K used,   991088K free,     1024K buffers
+ Swap:  7415944K total,   496640K used,  6919304K free,  2640932K cached
+800%cpu  27%user   0%nice  94%sys 642%idle   0%iow  33%irq   3%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+10907 root          0 -20    0    0    0 D 54.5   0.0   4:35.64 [kworker/u17:3+AWINIC WQ]
+13564 root         20   0  10G 4.8M 3.7M R 24.2   0.0   0:00.10 top -b -n 1
+ 5612 root         20   0  16G  95M  80M S 18.1   1.3  32:59.83 app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+  963 mediacodec   20   0  11G 6.8M 6.1M S 12.1   0.0  73:43.13 media.swcodec oid.media.swcodec/bin/mediaswcodec
+10348 root          0 -20    0    0    0 I  6.0   0.0   7:53.80 [kworker/u17:0-kbase_pm_poweroff_wait]
+ 6181 root         20   0  11G 4.7M 2.5M S  6.0   0.0  41:17.51 adbd --root_seclabel=u:r:su:s0
+ 9342 root         20   0    0    0    0 I  3.0   0.0   0:21.92 [kworker/u16:0-devfreq_wq]
+ 1510 network_stack 20  0  16G  65M  38M S  3.0   0.9  28:13.46 com.android.networkstack.process
+  691 audioserver  20   0  12G 7.3M 5.8M S  3.0   0.1  42:06.95 audioserver
+  664 system       -3   0  11G 3.9M 2.6M S  3.0   0.0 167:45.76 android.hardware.graphics.composer@3.2-service
+   13 root         20   0    0    0    0 S  3.0   0.0  15:17.77 [ksoftirqd/0]
+13565 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:00.03 head -n 35
+12431 root         20   0  14G 105M  37M S  0.0   1.4   0:10.86 openclaw-qwen-dla-server 18082
+12308 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:03.49 sh /data/local/tmp/openclaw_perf_sample.sh
+12294 root         20   0  11G  48M  27M S  0.0   0.6   0:02.66 libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+12076 root         20   0    0    0    0 I  0.0   0.0   0:00.16 [kworker/7:2-events]
+12055 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:2-mm_percpu_wq]
+11868 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+11861 u0_a123      20   0  12G 344M  33M S  0.0   4.7   1:25.70 clawdbot-gateway
+11856 root         20   0    0    0    0 I  0.0   0.0   0:01.30 [kworker/u16:1-devfreq_wq]
+11845 u0_a123      20   0  11G  48M  30M S  0.0   0.6   0:01.62 openclaw-cn
+11793 u0_a123      10 -10  17G 261M 196M S  0.0   3.6   0:21.39 io.github.openclawcn.app
+11713 root          0 -20    0    0    0 I  0.0   0.0   2:02.58 [kworker/u17:4-ged_notify_sw_vsync]
+11696 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/7:0-mm_percpu_wq]
+11692 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:1-events]
+11612 root          0 -20    0    0    0 I  0.0   0.0   0:00.07 [kworker/7:2H-kverityd]
+11317 root          0 -20    0    0    0 I  0.0   0.0   0:00.20 [kworker/0:0H-kblockd]
+11212 root          0 -20    0    0    0 I  0.0   0.0   2:22.26 [kworker/u17:1-mali_jd]
+11180 root         20   0    0    0    0 I  0.0   0.0   0:00.56 [kworker/7:1-mm_percpu_wq]
+11081 root         20   0    0    0    0 I  0.0   0.0   0:00.08 [kworker/2:2-mm_percpu_wq]
+===== sample 9 1778905016545 =====
+Tasks: 501 total,   2 running, 499 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6423900K used,   992048K free,     1024K buffers
+ Swap:  7415944K total,   496640K used,  6919304K free,  2641280K cached
+800%cpu  39%user   0%nice  61%sys 664%idle   0%iow  33%irq   3%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+10907 root          0 -20    0    0    0 R 51.5   0.0   4:38.27 [kworker/u17:3+AWINIC WQ]
+13715 root         20   0  10G 4.7M 3.6M R 21.2   0.0   0:00.10 top -b -n 1
+ 5612 root         20   0  16G  95M  80M S 15.1   1.3  33:00.68 app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+  963 mediacodec   20   0  11G 6.8M 6.1M S 15.1   0.0  73:43.78 media.swcodec oid.media.swcodec/bin/mediaswcodec
+10348 root          0 -20    0    0    0 I  6.0   0.0   7:54.08 [kworker/u17:0-kbase_pm_poweroff_wait]
+ 6181 root         20   0  11G 4.7M 2.5M S  3.0   0.0  41:17.70 adbd --root_seclabel=u:r:su:s0
+ 1510 network_stack 20  0  16G  67M  38M S  3.0   0.9  28:13.57 com.android.networkstack.process
+  704 system       -3   0  11G  21M  14M S  3.0   0.2 168:08.27 surfaceflinger
+  691 audioserver  20   0  12G 7.3M 5.8M S  3.0   0.1  42:07.03 audioserver
+  683 system       20   0  10G 2.9M 2.6M S  3.0   0.0   4:46.59 android.hardware.thermal-service.mediatek
+   13 root         20   0    0    0    0 S  3.0   0.0  15:17.81 [ksoftirqd/0]
+13716 root         20   0  10G 3.5M 2.8M S  0.0   0.0   0:00.02 head -n 35
+12431 root         20   0  14G 105M  37M S  0.0   1.4   0:10.86 openclaw-qwen-dla-server 18082
+12308 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:03.95 sh /data/local/tmp/openclaw_perf_sample.sh
+12294 root         20   0  11G  48M  27M S  0.0   0.6   0:02.66 libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+12076 root         20   0    0    0    0 I  0.0   0.0   0:00.16 [kworker/7:2-events]
+12055 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:2-mm_percpu_wq]
+11868 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+11861 u0_a123      20   0  12G 344M  33M S  0.0   4.7   1:25.75 clawdbot-gateway
+11856 root         20   0    0    0    0 I  0.0   0.0   0:01.31 [kworker/u16:1-events_unbound]
+11845 u0_a123      20   0  11G  48M  30M S  0.0   0.6   0:01.62 openclaw-cn
+11793 u0_a123      10 -10  17G 261M 196M S  0.0   3.6   0:21.39 io.github.openclawcn.app
+11713 root          0 -20    0    0    0 I  0.0   0.0   2:02.58 [kworker/u17:4-ged_notify_sw_vsync]
+11696 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/7:0-mm_percpu_wq]
+11692 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:1-events]
+11612 root          0 -20    0    0    0 I  0.0   0.0   0:00.07 [kworker/7:2H-kverityd]
+11317 root          0 -20    0    0    0 I  0.0   0.0   0:00.20 [kworker/0:0H-kblockd]
+11212 root          0 -20    0    0    0 I  0.0   0.0   2:22.26 [kworker/u17:1-mali_jd]
+11180 root         20   0    0    0    0 I  0.0   0.0   0:00.56 [kworker/7:1-events]
+11081 root         20   0    0    0    0 I  0.0   0.0   0:00.09 [kworker/2:2-pm]
+===== sample 10 1778905021186 =====
+Tasks: 501 total,   1 running, 500 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6421744K used,   994204K free,     1024K buffers
+ Swap:  7415944K total,   496640K used,  6919304K free,  2641348K cached
+800%cpu  30%user   0%nice  88%sys 648%idle   0%iow  30%irq   3%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+10907 root          0 -20    0    0    0 D 51.5   0.0   4:40.90 [kworker/u17:3+AWINIC WQ]
+13866 root         20   0  10G 4.7M 3.6M R 24.2   0.0   0:00.10 top -b -n 1
+ 5612 root         20   0  16G  95M  80M S 18.1   1.3  33:01.59 app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+  963 mediacodec   20   0  11G 6.8M 6.1M S 15.1   0.0  73:44.45 media.swcodec oid.media.swcodec/bin/mediaswcodec
+10348 root          0 -20    0    0    0 I  6.0   0.0   7:54.41 [kworker/u17:0-kbase_pm_poweroff_wait]
+ 6181 root         20   0  11G 4.7M 2.5M S  3.0   0.0  41:17.88 adbd --root_seclabel=u:r:su:s0
+  704 system       -3   0  11G  21M  14M S  3.0   0.2 168:08.32 surfaceflinger
+  691 audioserver  20   0  12G 7.3M 5.8M S  3.0   0.1  42:07.11 audioserver
+  664 system       -3   0  11G 3.9M 2.6M S  3.0   0.0 167:45.97 android.hardware.graphics.composer@3.2-service
+  164 root         RT   0    0    0    0 S  3.0   0.0   9:48.80 [irq/281-11201000.usb0]
+    1 root         20   0  11G 4.1M 2.8M S  3.0   0.0  27:22.87 init second_stage
+13867 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:00.02 head -n 35
+12431 root         20   0  14G 105M  37M S  0.0   1.4   0:10.86 openclaw-qwen-dla-server 18082
+12308 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:04.42 sh /data/local/tmp/openclaw_perf_sample.sh
+12294 root         20   0  11G  48M  27M S  0.0   0.6   0:02.66 libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+12076 root         20   0    0    0    0 I  0.0   0.0   0:00.16 [kworker/7:2-events]
+12055 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:2-mm_percpu_wq]
+11868 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+11861 u0_a123      20   0  12G 344M  33M S  0.0   4.7   1:25.80 clawdbot-gateway
+11856 root         20   0    0    0    0 I  0.0   0.0   0:01.33 [kworker/u16:1-events_unbound]
+11845 u0_a123      20   0  11G  48M  30M S  0.0   0.6   0:01.62 openclaw-cn
+11793 u0_a123      10 -10  17G 261M 196M S  0.0   3.6   0:21.39 io.github.openclawcn.app
+11713 root          0 -20    0    0    0 I  0.0   0.0   2:02.58 [kworker/u17:4-ged_notify_sw_vsync]
+11696 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/7:0-mm_percpu_wq]
+11692 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:1-events]
+11612 root          0 -20    0    0    0 I  0.0   0.0   0:00.07 [kworker/7:2H-kverityd]
+11317 root          0 -20    0    0    0 I  0.0   0.0   0:00.20 [kworker/0:0H-kblockd]
+11212 root          0 -20    0    0    0 I  0.0   0.0   2:22.26 [kworker/u17:1-mali_jd]
+11180 root         20   0    0    0    0 I  0.0   0.0   0:00.56 [kworker/7:1-events]
+11081 root         20   0    0    0    0 I  0.0   0.0   0:00.09 [kworker/2:2-mm_percpu_wq]
+===== sample 11 1778905025958 =====
+Tasks: 502 total,   2 running, 500 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6420252K used,   995696K free,     1024K buffers
+ Swap:  7415944K total,   496640K used,  6919304K free,  2641712K cached
+800%cpu  30%user   0%nice 106%sys 630%idle   0%iow  30%irq   3%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+10907 root          0 -20    0    0    0 R 54.5   0.0   4:43.57 [kworker/u17:3+AWINIC WQ]
+14038 root         20   0  10G 4.7M 3.6M R 21.2   0.0   0:00.10 top -b -n 1
+ 5612 root         20   0  16G  95M  80M S 18.1   1.3  33:02.46 app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+  963 mediacodec   20   0  11G 6.8M 6.1M S 15.1   0.0  73:45.13 media.swcodec oid.media.swcodec/bin/mediaswcodec
+10348 root          0 -20    0    0    0 I  6.0   0.0   7:54.71 [kworker/u17:0-kbase_pm_poweroff_wait]
+ 6181 root         20   0  11G 4.7M 2.5M S  6.0   0.0  41:18.07 adbd --root_seclabel=u:r:su:s0
+11861 u0_a123      20   0  12G 344M  33M S  3.0   4.7   1:25.87 clawdbot-gateway
+ 9440 root         20   0    0    0    0 I  3.0   0.0   0:18.08 [kworker/u16:2-adb]
+  691 audioserver  20   0  12G 7.3M 5.8M S  3.0   0.1  42:07.19 audioserver
+  664 system       -3   0  11G 3.9M 2.6M S  3.0   0.0 167:46.08 android.hardware.graphics.composer@3.2-service
+  656 audioserver  20   0  11G 2.9M 2.5M S  3.0   0.0  23:35.47 android.hardware.audio.service.mediatek
+  244 root         RT   0    0    0    0 S  3.0   0.0  22:30.58 [dis_ki-0]
+   13 root         20   0    0    0    0 S  3.0   0.0  15:17.88 [ksoftirqd/0]
+14039 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:00.02 head -n 35
+13885 root         20   0    0    0    0 I  0.0   0.0   0:00.02 [kworker/u16:4-adb]
+12431 root         20   0  14G 105M  37M S  0.0   1.4   0:10.86 openclaw-qwen-dla-server 18082
+12308 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:04.89 sh /data/local/tmp/openclaw_perf_sample.sh
+12294 root         20   0  11G  48M  27M S  0.0   0.6   0:02.66 libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+12076 root         20   0    0    0    0 I  0.0   0.0   0:00.17 [kworker/7:2-events]
+12055 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:2-events]
+11868 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+11856 root         20   0    0    0    0 I  0.0   0.0   0:01.34 [kworker/u16:1-events_unbound]
+11845 u0_a123      20   0  11G  48M  30M S  0.0   0.6   0:01.62 openclaw-cn
+11793 u0_a123      10 -10  17G 261M 196M S  0.0   3.6   0:21.39 io.github.openclawcn.app
+11713 root          0 -20    0    0    0 I  0.0   0.0   2:02.58 [kworker/u17:4-ged_notify_sw_vsync]
+11696 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/7:0-mm_percpu_wq]
+11692 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:1-events]
+11612 root          0 -20    0    0    0 I  0.0   0.0   0:00.07 [kworker/7:2H-kverityd]
+11317 root          0 -20    0    0    0 I  0.0   0.0   0:00.20 [kworker/0:0H-kblockd]
+11212 root          0 -20    0    0    0 I  0.0   0.0   2:22.26 [kworker/u17:1-mali_jd]
+===== sample 12 1778905030759 =====
+Tasks: 502 total,   3 running, 499 sleeping,   0 stopped,   0 zombie
+  Mem:  7415948K total,  6422596K used,   993352K free,     1024K buffers
+ Swap:  7415944K total,   496640K used,  6919304K free,  2642064K cached
+800%cpu  36%user   0%nice  94%sys 633%idle   0%iow  33%irq   3%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+10907 root          0 -20    0    0    0 R 54.5   0.0   4:46.23 [kworker/u17:3+AWINIC WQ]
+14189 root         20   0  10G 4.8M 3.6M R 24.2   0.0   0:00.10 top -b -n 1
+ 5612 root         20   0  16G  95M  80M S 24.2   1.3  33:03.32 app_process / com.genymobile.scrcpy.Server 3.3.4 scid=2291318c log_level=info
+  963 mediacodec   20   0  11G 6.8M 6.1M S 15.1   0.0  73:45.80 media.swcodec oid.media.swcodec/bin/mediaswcodec
+    1 root         20   0  11G 4.1M 2.8M R  9.0   0.0  27:23.01 init second_stage
+10348 root          0 -20    0    0    0 I  6.0   0.0   7:55.00 [kworker/u17:0-kbase_pm_poweroff_wait]
+11861 u0_a123      20   0  12G 344M  33M S  3.0   4.7   1:25.96 clawdbot-gateway
+ 6181 root         20   0  11G 4.7M 2.5M S  3.0   0.0  41:18.24 adbd --root_seclabel=u:r:su:s0
+ 1085 system       18  -2  22G 226M 139M S  3.0   3.1  51:47.16 system_server
+  927 system       20   0  10G 4.9M 1.9M S  3.0   0.0 108:16.81 mobile_log_d
+  704 system       -3   0  11G  21M  14M S  3.0   0.2 168:08.40 surfaceflinger
+  691 audioserver  20   0  12G 7.3M 5.8M S  3.0   0.1  42:07.27 audioserver
+  656 audioserver  20   0  11G 2.9M 2.5M S  3.0   0.0  23:35.54 android.hardware.audio.service.mediatek
+14190 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:00.02 head -n 35
+13885 root         20   0    0    0    0 I  0.0   0.0   0:00.06 [kworker/u16:4-adb]
+12431 root         20   0  14G 105M  37M S  0.0   1.4   0:10.86 openclaw-qwen-dla-server 18082
+12308 root         20   0  10G 3.4M 2.7M S  0.0   0.0   0:05.35 sh /data/local/tmp/openclaw_perf_sample.sh
+12294 root         20   0  11G  48M  27M S  0.0   0.6   0:02.66 libopenclaw_node.so /data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs
+12076 root         20   0    0    0    0 I  0.0   0.0   0:00.17 [kworker/7:2-cgroup_destroy]
+12055 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:2-events]
+11868 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+11856 root         20   0    0    0    0 I  0.0   0.0   0:01.34 [kworker/u16:1-events_unbound]
+11845 u0_a123      20   0  11G  48M  30M S  0.0   0.6   0:01.62 openclaw-cn
+11793 u0_a123      10 -10  17G 261M 196M S  0.0   3.6   0:21.39 io.github.openclawcn.app
+11713 root          0 -20    0    0    0 I  0.0   0.0   2:02.58 [kworker/u17:4-ged_notify_sw_vsync]
+11696 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/7:0-mm_percpu_wq]
+11692 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/6:1-events]
+11612 root          0 -20    0    0    0 I  0.0   0.0   0:00.07 [kworker/7:2H-kverityd]
+11317 root          0 -20    0    0    0 I  0.0   0.0   0:00.20 [kworker/0:0H-kblockd]
+11212 root          0 -20    0    0    0 I  0.0   0.0   2:22.26 [kworker/u17:1-mali_jd]

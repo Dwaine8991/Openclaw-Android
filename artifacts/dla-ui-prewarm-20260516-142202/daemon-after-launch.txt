@@ -1,0 +1,29 @@
+﻿starting openclaw-dla-daemon: node=/data/local/tmp/openclaw-dla-daemon/libopenclaw_node.so bridge=/data/local/tmp/openclaw-dla-daemon/android-dla-bridge.mjs port=8081
+OpenClaw DLA bridge listening on 127.0.0.1:8081
+[openclaw-dla-perf] id=warmup-1778912523942 phase=warmup_start t=1778912523942 elapsedMs=0 reason=startup generate=false
+[openclaw-dla-perf] id=warmup-1778912523942 phase=persistent_server_starting t=1778912524193 elapsedMs=251 bin=/data/local/tmp/llm_sdk/openclaw-qwen-dla-server port=18082
+[openclaw-dla-server] PowerHAL Enable
+[openclaw-dla-server] Begin model init...
+[openclaw-dla-server] Done model init. (Time taken: 3.38285s)
+[openclaw-dla-server] Initialized HuggingFace tokenizer.
+OpenClaw Qwen DLA server tokenizer vocab size: 151669
+[openclaw-dla-server] openclaw-qwen-dla-server listening on 127.0.0.1:18082
+[openclaw-dla-perf] id=warmup-1778912523942 phase=persistent_server_not_ready t=1778912530266 elapsedMs=6324 pid=21541
+[openclaw-dla-perf] persistent_server_stop reason=not_ready pid=21541
+[openclaw-dla-perf] id=warmup-1778912523942 phase=warmup_failed t=1778912530272 elapsedMs=6330 reason=server_not_ready
+[openclaw-dla-perf] id=warmup-1778912530403 phase=warmup_start t=1778912530403 elapsedMs=0 reason=http generate=false
+[openclaw-dla-perf] id=warmup-1778912530403 phase=persistent_server_starting t=1778912531038 elapsedMs=635 bin=/data/local/tmp/llm_sdk/openclaw-qwen-dla-server port=18082
+[openclaw-dla-server] PowerHAL Free
+[openclaw-dla-perf] id=warmup-1778912531109 phase=warmup_start t=1778912531109 elapsedMs=0 reason=http generate=false
+[openclaw-dla-perf] persistent_server_closed code=0 pid=21541
+[openclaw-dla-perf] id=warmup-1778912531138 phase=warmup_start t=1778912531138 elapsedMs=0 reason=http generate=false
+[openclaw-dla-server] PowerHAL Enable
+[openclaw-dla-server] Begin model init...
+[openclaw-dla-server] Done model init. (Time taken: 3.07064s)
+[openclaw-dla-server] Initialized HuggingFace tokenizer.
+[openclaw-dla-server] OpenClaw Qwen DLA server tokenizer vocab size: 151669
+openclaw-qwen-dla-server listening on 127.0.0.1:18082
+[openclaw-dla-perf] id=warmup-1778912530403 phase=persistent_server_ready t=1778912536873 elapsedMs=6470 pid=21647
+[openclaw-dla-perf] id=warmup-1778912530403 phase=warmup_completed t=1778912536875 elapsedMs=6472 generated=false
+[openclaw-dla-perf] id=warmup-1778912531109 phase=warmup_completed t=1778912536875 elapsedMs=5766 generated=false
+[openclaw-dla-perf] id=warmup-1778912531138 phase=warmup_completed t=1778912536876 elapsedMs=5738 generated=false

@@ -1,0 +1,7 @@
+﻿
+LISTEN      0      511    127.0.0.1:18790              0.0.0.0:*                   users:(("clawdbot-gatewa",pid=22850,
+fd=20))
+LISTEN      0      511      [::1]:18790                 [::]:*                   users:(("clawdbot-gatewa",pid=22850,fd
+=21))
+
+

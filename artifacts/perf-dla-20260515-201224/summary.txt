@@ -1,0 +1,15 @@
+﻿Flow: UI chat prompt -> local gateway -> qwen3-1.7b-dla via openclaw-dla-daemon
+Device: AgenewTech mt8391, Android 15
+Prompt: Introduce AgenewTech WiFi SoM products and recommended applications in English.
+Run window: 2026-05-15 20:16:18..20:17:55 Asia/Shanghai
+Samples: 24
+App CPU max/avg (% of one core units): 171 / 26.3
+DLA daemon CPU max/avg: 12.1 / 0.9
+Global CPU busy max/avg of 800%: 484 / 296.2
+MemAvailable KB min/max: 3675112 / 5393296
+App RSS KB min/max: 285036 / 315588
+CPU max temp C min/max: 54.7 / 62.6
+APU temp C min/max: 50.4 / 62
+MDLA freq observed: 900000000:24
+llm_sdk pid/timing from logcat: pid 22213, model init 20:16:40.279..20:16:43.260, prompt tokens 485, worker exited after PowerHAL Free at 20:17:04.805.
+Crashes: no FATAL/ANR/OOM/SIGSEGV patterns in captured logcat.

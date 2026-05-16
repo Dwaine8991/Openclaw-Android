@@ -1,0 +1,216 @@
+﻿Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        6e1dedd io.github.openclawcn.app/ai.openclaw.app.MainActivity filter c016a52
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.ASSIST:
+        6e1dedd io.github.openclawcn.app/ai.openclaw.app.MainActivity filter 86b7123
+          Action: "android.intent.action.ASSIST"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        64a0620 io.github.openclawcn.app/androidx.profileinstaller.ProfileInstallReceiver filter 379fc7f
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        64a0620 io.github.openclawcn.app/androidx.profileinstaller.ProfileInstallReceiver filter 8228bd9
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        64a0620 io.github.openclawcn.app/androidx.profileinstaller.ProfileInstallReceiver filter 27d99e
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        64a0620 io.github.openclawcn.app/androidx.profileinstaller.ProfileInstallReceiver filter f19644c
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.notification.NotificationListenerService:
+        9270c95 io.github.openclawcn.app/ai.openclaw.app.node.DeviceNotificationListenerService filter bb3f1aa permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+
+Domain verification status:
+
+Permissions:
+  Permission [io.github.openclawcn.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (b7c805b):
+    sourcePackage=io.github.openclawcn.app
+    uid=10123 gids=[] type=0 prot=signature
+    perm=PermissionInfo{7b068d7 io.github.openclawcn.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  io.github.openclawcn.app/androidx.startup.InitializationProvider:
+    Provider{35855c4 io.github.openclawcn.app/androidx.startup.InitializationProvider}
+  io.github.openclawcn.app/androidx.core.content.FileProvider:
+    Provider{566cad io.github.openclawcn.app/androidx.core.content.FileProvider}
+  io.github.openclawcn.app/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{4b72be2 io.github.openclawcn.app/com.google.mlkit.common.internal.MlKitInitProvider}
+
+ContentProvider Authorities:
+  [io.github.openclawcn.app.androidx-startup]:
+    Provider{35855c4 io.github.openclawcn.app/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{48090f8 io.github.openclawcn.app}
+  [io.github.openclawcn.app.fileprovider]:
+    Provider{566cad io.github.openclawcn.app/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{eb979d1 io.github.openclawcn.app}
+  [io.github.openclawcn.app.mlkitinitprovider]:
+    Provider{4b72be2 io.github.openclawcn.app/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{bcbc36 io.github.openclawcn.app}
+
+Key Set Manager:
+  [io.github.openclawcn.app]
+      Signing KeySets: 22
+
+Packages:
+  Package [io.github.openclawcn.app] (3fc3994):
+    appId=10123
+    pkg=Package{8a0242e io.github.openclawcn.app}
+    codePath=/data/app/~~x70QHbSeumMPxofeU0ToDQ==/io.github.openclawcn.app-J-3uIyB-RtJTh43nlzgqyw==
+    resourcePath=/data/app/~~x70QHbSeumMPxofeU0ToDQ==/io.github.openclawcn.app-J-3uIyB-RtJTh43nlzgqyw==
+    legacyNativeLibraryDir=/data/app/~~x70QHbSeumMPxofeU0ToDQ==/io.github.openclawcn.app-J-3uIyB-RtJTh43nlzgqyw==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=2026042700 minSdk=31 targetSdk=36
+    minExtensionVersions=[]
+    versionName=2026.4.27
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesOptionalNativeLibraries:
+      libapuwareutils_v2.mtk.so
+      libapuwareapusys_v2.mtk.so
+      libnir_neon_driver_ndk.mtk.so
+      libnir_neon_driver_ndk.mtk.vndk.so
+      libcmdl_ndk.mtk.vndk.so
+      libcmdl_ndk.mtk.so
+    usesLibraryFiles:
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+      libapuwareutils_v2.mtk.so
+      libapuwareapusys_v2.mtk.so
+      libnir_neon_driver_ndk.mtk.so
+      libnir_neon_driver_ndk.mtk.vndk.so
+      libcmdl_ndk.mtk.vndk.so
+      libcmdl_ndk.mtk.so
+    timeStamp=2026-05-16 16:17:11
+    lastUpdateTime=2026-05-16 16:17:16
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{a304f40 version:2, signatures:[d19d39dd], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      io.github.openclawcn.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.READ_CALENDAR
+      android.permission.POST_NOTIFICATIONS
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.NEARBY_WIFI_DEVICES
+      android.permission.INTERNET
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.WRITE_CONTACTS
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.WRITE_CALENDAR
+      io.github.openclawcn.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.FOREGROUND_SERVICE_MICROPHONE
+      android.permission.ACTIVITY_RECOGNITION
+      android.permission.RECORD_AUDIO
+      android.permission.READ_CONTACTS
+    install permissions:
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      io.github.openclawcn.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.FOREGROUND_SERVICE_MICROPHONE: granted=true
+    User 0: ceDataInode=11782 deDataInode=11774 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/io.github.openclawcn.app
+      firstInstallTime=2026-05-12 21:37:12
+      uninstallReason=0
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-RuFe.frro
+        /data/resource-cache/com.android.systemui-accent-LCx0.frro
+        /data/resource-cache/com.android.systemui-dynamic-l2gW.frro
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|524288]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.NEARBY_WIFI_DEVICES: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CONTACTS: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CALENDAR: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACTIVITY_RECOGNITION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.android.settings.intelligence:
+      io.github.openclawcn.app
+    io.github.openclawcn.app:
+      com.android.quicksearchbox
+      com.android.inputmethod.latin
+      com.android.gallery3d
+      com.serenegiant.usbcameratest
+      com.mtk.qwen3demo
+      com.mtk.qwen3jnidemo
+  queryable via interaction:
+    User 0:
+      [com.android.inputdevices,com.android.dynsystem,com.android.DeviceAsWebcam,com.nbbsw.mmi_test,com.mesh.test.provisioner,com.mediatek.simprocessor,com.mediatek.location.lppe.main,com.android.localtransport,android,com.android.settings,com.mediatek,com.android.providers.settings,com.android.keychain,com.mediatek.atci.service,com.agenew.engineeringmode,com.android.location.fused,com.mediatek.videoplayer,com.android.deskclock,com.wapi.wapicertmanager]:
+        io.github.openclawcn.app
+      com.android.documentsui:
+        io.github.openclawcn.app
+      com.android.inputmethod.latin:
+        io.github.openclawcn.app
+      com.android.systemui:
+        io.github.openclawcn.app
+      com.android.providers.media.module:
+        io.github.openclawcn.app
+      android.ext.services:
+        io.github.openclawcn.app
+      io.github.openclawcn.app:
+        [com.android.inputdevices,com.android.dynsystem,com.android.DeviceAsWebcam,com.nbbsw.mmi_test,com.mesh.test.provisioner,com.mediatek.simprocessor,com.mediatek.location.lppe.main,com.android.localtransport,android,com.android.settings,com.mediatek,com.android.providers.settings,com.android.keychain,com.mediatek.atci.service,com.agenew.engineeringmode,com.android.location.fused,com.mediatek.videoplayer,com.android.deskclock,com.wapi.wapicertmanager]
+  queryable via uses-library:
+
+Dexopt state:
+  [io.github.openclawcn.app]
+    path: /data/app/~~x70QHbSeumMPxofeU0ToDQ==/io.github.openclawcn.app-J-3uIyB-RtJTh43nlzgqyw==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+
+Compiler stats:
+  [io.github.openclawcn.app]
+    (No recorded stats)

@@ -1009,7 +1009,7 @@ class MicCaptureManager(
 
   private suspend fun runStreamingTtsWorker(generation: Long) {
     while (true) {
-      val chunk =
+      val text =
         synchronized(streamingTtsLock) {
           if (generation != streamingTtsGeneration) {
             null
@@ -1017,22 +1017,28 @@ class MicCaptureManager(
             streamingTtsWorker = null
             null
           } else {
-            streamingTtsQueue.removeFirst()
+            buildString {
+              append(streamingTtsQueue.removeFirst())
+              while (streamingTtsQueue.isNotEmpty()) {
+                append(' ')
+                append(streamingTtsQueue.removeFirst())
+              }
+            }
           }
         } ?: return
 
       try {
-        Log.d(tag, "streaming TTS speak chunk chars=${chunk.length}")
+        Log.d(tag, "streaming TTS speak batch chars=${text.length}")
         val finished =
           withTimeoutOrNull(assistantReplyPlaybackTimeoutMs) {
-            speakAssistantReply(chunk)
+            speakAssistantReply(text)
             true
           }
         if (finished != true) {
-          Log.w(tag, "streaming TTS chunk timed out chars=${chunk.length}")
+          Log.w(tag, "streaming TTS batch timed out chars=${text.length}")
         }
       } catch (err: Throwable) {
-        Log.w(tag, "streaming TTS chunk failed: ${err.message ?: err::class.simpleName}")
+        Log.w(tag, "streaming TTS batch failed: ${err.message ?: err::class.simpleName}")
       }
     }
     synchronized(streamingTtsLock) {
