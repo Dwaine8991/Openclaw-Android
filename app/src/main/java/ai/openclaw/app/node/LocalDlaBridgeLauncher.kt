@@ -59,8 +59,15 @@ class LocalDlaBridgeLauncher(
 
   suspend fun ensureStarted(): LocalDlaBridgeLaunchResult =
     lock.withLock {
-      if (canConnect(HOST, PORT)) return LocalDlaBridgeLaunchResult.AlreadyRunning
-      runCatching { stageBridgeScript() }.getOrElse { return LocalDlaBridgeLaunchResult.Failed }
+      val bridgeScriptChanged = runCatching { stageBridgeScript() }.getOrElse { return LocalDlaBridgeLaunchResult.Failed }
+      if (canConnect(HOST, PORT)) {
+        if (!bridgeScriptChanged && isCurrentBridgeReachable()) return LocalDlaBridgeLaunchResult.AlreadyRunning
+        runner.run(listOf("/system/bin/sh", "-c", buildStopScript()), timeoutMs = 8_000)
+        repeat(10) {
+          if (!canConnect(HOST, PORT)) return@repeat
+          delay(100)
+        }
+      }
       runCatching { stageBundledNativeLibraries() }.getOrElse { return LocalDlaBridgeLaunchResult.Failed }
       if (!hasPackagedDlaMainExecutable()) {
         runCatching { stageDlaMainExecutable() }.getOrElse { return LocalDlaBridgeLaunchResult.Failed }
@@ -234,28 +241,43 @@ class LocalDlaBridgeLauncher(
       "PID_FILE=\"\$APP_HOME/.openclaw/android-dla-bridge.pid\"",
       "WORKER_PID_FILE=\"\$APP_HOME/.openclaw/android-dla-worker.pid\"",
       "SERVER_PID_FILE=\"\$APP_HOME/.openclaw/android-dla-server.pid\"",
+      "kill_pid() {",
+      "  target=\"\$1\"",
+      "  if [ -z \"\$target\" ]; then",
+      "    return 0",
+      "  fi",
+      "  kill \"\$target\" 2>/dev/null || true",
+      "  sleep 0.2",
+      "  kill -9 \"\$target\" 2>/dev/null || true",
+      "  if kill -0 \"\$target\" 2>/dev/null && command -v su >/dev/null 2>&1; then",
+      "    su -c \"kill \$target 2>/dev/null || true; sleep 0.2; kill -9 \$target 2>/dev/null || true\" 2>/dev/null || true",
+      "  fi",
+      "}",
       "for file in \"\$WORKER_PID_FILE\" \"\$SERVER_PID_FILE\" \"\$PID_FILE\"; do",
       "  old=\"\$(cat \"\$file\" 2>/dev/null || true)\"",
-      "  if [ -n \"\$old\" ] && kill -0 \"\$old\" 2>/dev/null; then",
-      "    kill \"\$old\" 2>/dev/null || true",
-      "    sleep 0.2",
-      "    kill -9 \"\$old\" 2>/dev/null || true",
-      "  fi",
+      "  kill_pid \"\$old\"",
       "  rm -f \"\$file\"",
       "done",
+      "pkill -f android-dla-bridge.mjs 2>/dev/null || true",
+      "if command -v su >/dev/null 2>&1; then",
+      "  su -c \"pkill -f android-dla-bridge.mjs 2>/dev/null || true\" 2>/dev/null || true",
+      "fi",
       "exit 0",
     )
 
-  private suspend fun stageBridgeScript() {
-    val context = appContext ?: return
-    val targetHome = appHome?.let(::File) ?: return
-    withContext(Dispatchers.IO) {
+  private suspend fun stageBridgeScript(): Boolean {
+    val context = appContext ?: return false
+    val targetHome = appHome?.let(::File) ?: return false
+    return withContext(Dispatchers.IO) {
       val target = targetHome.resolve(".openclaw/android-dla-bridge.mjs")
       target.parentFile?.mkdirs()
-      context.assets.open(BRIDGE_ASSET_PATH).use { input ->
-        target.outputStream().use { output -> input.copyTo(output) }
+      val stagedBytes = context.assets.open(BRIDGE_ASSET_PATH).use { input -> input.readBytes() }
+      val changed = !target.exists() || !target.readBytes().contentEquals(stagedBytes)
+      if (changed) {
+        target.outputStream().use { output -> output.write(stagedBytes) }
       }
       target.setReadable(true, true)
+      changed
     }
   }
 
@@ -345,6 +367,25 @@ class LocalDlaBridgeLauncher(
     return false
   }
 
+  private suspend fun isCurrentBridgeReachable(): Boolean {
+    if (canConnectProbe != null) return true
+    return withContext(Dispatchers.IO) {
+      runCatching {
+        val connection = (URL("http://$HOST:$PORT/v1/health").openConnection() as HttpURLConnection).apply {
+          requestMethod = "GET"
+          connectTimeout = 800
+          readTimeout = 800
+        }
+        try {
+          connection.responseCode in 200..299 &&
+            connection.inputStream.bufferedReader().use { it.readText() }.contains(BRIDGE_FEATURE_VERSION)
+        } finally {
+          connection.disconnect()
+        }
+      }.getOrDefault(false)
+    }
+  }
+
   private suspend fun canConnect(
     host: String,
     port: Int,
@@ -376,6 +417,7 @@ class LocalDlaBridgeLauncher(
     const val DEFAULT_LLM_DIR = "/data/local/tmp/llm_sdk"
     const val DEFAULT_CONFIG = "config_np8-qwen3-1.7b.yaml"
     const val DEFAULT_PREFORMATTER = "Qwen3NoInputNoThink"
+    const val BRIDGE_FEATURE_VERSION = "product-kb-direct-v1"
     const val DEFAULT_MAX_TOKENS = 384
     const val MIN_AVAILABLE_KB = 1_250_000
     const val APP_PSS_LIMIT_KB = 2_200_000

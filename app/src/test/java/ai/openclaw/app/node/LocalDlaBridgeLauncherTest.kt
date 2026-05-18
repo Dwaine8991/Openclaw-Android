@@ -36,6 +36,27 @@ class LocalDlaBridgeLauncherTest {
   }
 
   @Test
+  fun daemonStartScript_usesSameDlaDefaultsAsAppBridge() {
+    val script = File("../tools/openclaw-dla-daemon/start.sh").readText()
+
+    assertTrue(script.contains("OPENCLAW_DLA_MAX_TOKENS=\"${'$'}{OPENCLAW_DLA_MAX_TOKENS:-384}\""))
+    assertTrue(script.contains("OPENCLAW_DLA_PERSISTENT_MODE=\"${'$'}{OPENCLAW_DLA_PERSISTENT_MODE:-auto}\""))
+    assertTrue(script.contains("OPENCLAW_DLA_PERSISTENT_STREAM=\"${'$'}{OPENCLAW_DLA_PERSISTENT_STREAM:-true}\""))
+    assertTrue(script.contains("OPENCLAW_DLA_PREWARM=\"${'$'}{OPENCLAW_DLA_PREWARM:-true}\""))
+  }
+
+  @Test
+  fun perfSummaryScript_reportsFirstTokenTimingPhases() {
+    val script = File("../scripts/summarize-openclaw-dla-perf.ps1").readText()
+
+    assertTrue(script.contains("openclaw-dla-perf"))
+    assertTrue(script.contains("prompt_built"))
+    assertTrue(script.contains("persistent_first_byte"))
+    assertTrue(script.contains("persistent_first_delta"))
+    assertTrue(script.contains("request_completed"))
+  }
+
+  @Test
   fun bridgeAsset_spawnsShortLivedWorkerWithBusyLowMemoryAndTimeoutGuards() {
     val asset = File("src/main/assets/${LocalDlaBridgeLauncher.BRIDGE_ASSET_PATH}").readText()
 
@@ -68,6 +89,8 @@ class LocalDlaBridgeLauncherTest {
     assertTrue(asset.contains("requestedMaxTokens"))
     assertTrue(asset.contains("native_response_headers"))
     assertTrue(asset.contains("persistent_first_byte"))
+    assertTrue(asset.contains(LocalDlaBridgeLauncher.BRIDGE_FEATURE_VERSION))
+    assertTrue(asset.contains("direct_product_answer"))
   }
 
   @Test
@@ -103,6 +126,8 @@ class LocalDlaBridgeLauncherTest {
     assertTrue(script.contains("android-dla-worker.pid"))
     assertTrue(script.contains("android-dla-server.pid"))
     assertTrue(script.contains("kill -9"))
+    assertTrue(script.contains("su -c"))
+    assertTrue(script.contains("pkill -f android-dla-bridge.mjs"))
   }
 
   @Test

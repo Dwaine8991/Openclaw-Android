@@ -10,6 +10,7 @@ const mainBin = process.env.OPENCLAW_DLA_MAIN_BIN ?? join(llmDir, "main");
 const promptDir = process.env.OPENCLAW_DLA_PROMPT_DIR ?? llmDir;
 const config = process.env.OPENCLAW_DLA_CONFIG ?? "config_np8-qwen3-1.7b.yaml";
 const modelId = process.env.OPENCLAW_DLA_MODEL_ID ?? "qwen3-1.7b-dla";
+const bridgeFeatureVersion = "product-kb-direct-v1";
 const preformatter = process.env.OPENCLAW_DLA_PREFORMATTER ?? "Qwen3NoInputNoThink";
 const defaultMaxTokens = Number(process.env.OPENCLAW_DLA_MAX_TOKENS ?? "384");
 const maxInputChars = Number(process.env.OPENCLAW_DLA_MAX_INPUT_CHARS ?? "2800");
@@ -336,6 +337,175 @@ function truncateText(text, limit) {
   return compact.slice(0, Math.max(0, limit - 12)).trimEnd() + "\n[已截断]";
 }
 
+const productKb = {
+  "4G SoM": {
+    positioning: "LTE Android 智能模组，面向蜂窝联网、Wi-Fi/Bluetooth、GNSS、多媒体和外设接口场景。",
+    models: ["H1502BQ", "H1502RQ", "H1502UQ", "H1503BQ", "H1503RQ", "H1503UQ", "H1504TQ", "H1641BP", "H1641UP", "H1641RP", "H164YP", "M1642ZP"],
+  },
+  "5G SoM": {
+    positioning: "5G NR Android 智能模组，面向高带宽、5G 连接、Wi-Fi 6、GNSS 和边缘应用。",
+    models: ["M293GO", "M318GO"],
+    facts: {
+      M293GO: "Android 13, MediaTek MT8791T, 5G NR, Wi-Fi 6/Bluetooth 5.2, 64GB UFS + 4GB LPDDR4X.",
+      M318GO: "Android 13, MediaTek MT8791, 5G NR, Wi-Fi 6/Bluetooth 5.2, 64GB UFS + 4GB LPDDR4X.",
+    },
+  },
+  "AI SoM": {
+    positioning: "Android AI/智能计算模组，面向边缘 AI、会议、机器人、AR/VR、直播和高算力终端。",
+    models: ["M3281V", "M328L", "M328S"],
+    facts: {
+      M3281V: "Android 15, MT8893, 48 TOPS AI performance, 16GB LPDDR5X + 128GB UFS.",
+      M328L: "Android 15, MT8371, 10 TOPS AI performance, Wi-Fi 6E/Bluetooth 5.3, 8GB LPDDR5X + 128GB UFS.",
+      M328S: "Android 15, MT8391, 10 TOPS AI performance, 8GB LPDDR5X + 128GB UFS.",
+    },
+  },
+  "WIFI SoM": {
+    positioning: "不需要蜂窝网络、以 Wi-Fi 连接为主的 Android 智能模组，适合显示、摄像头、音频和外设丰富的设备。",
+    models: ["M274F", "M274K"],
+    facts: {
+      M274F: "Android 13 Wi-Fi smart module, Wi-Fi 6/Bluetooth 5.2, 8GB LPDDR4X + 64GB eMMC.",
+      M274K: "Android 13 Wi-Fi smart module, Wi-Fi 6/Bluetooth 5.2, 64GB eMMC, LPDDR4X or DDR4 memory options.",
+    },
+  },
+};
+
+function canonicalProductOverviewAnswer() {
+  return [
+    "CANONICAL_PRODUCT_OVERVIEW_ANSWER",
+    "宇宁科技主要有四类产品：",
+    "4G SoM：H1502/H1503/H1504/H1641/M1642 系列；",
+    "5G SoM：M293GO、M318GO；",
+    "AI SoM：M3281V、M328L、M328S；",
+    "WIFI SoM：M274F、M274K。",
+    "如果您关注联网、AI算力、显示摄像头、音频接口、尺寸或功耗，我可以继续帮您选型。",
+  ].join("\n");
+}
+
+function overviewKnowledgeSnippet() {
+  return [
+    "PRODUCT_KB_SNIPPET type=overview",
+    canonicalProductOverviewAnswer(),
+    "Instruction: answer from this exact overview; do not drop any listed category or model.",
+  ].join("\n");
+}
+
+function categoryKnowledgeSnippet(name) {
+  const category = productKb[name];
+  if (!category) return overviewKnowledgeSnippet();
+  const lines = [
+    `PRODUCT_KB_SNIPPET type=category category=${name}`,
+    `Category: ${name}`,
+    `Positioning: ${category.positioning}`,
+    `Representative models: ${category.models.join(", ")}.`,
+    `Required answer: mention these representative models: ${category.models.join(", ")}.`,
+  ];
+  for (const model of category.models) {
+    if (category.facts?.[model]) lines.push(`${model}: ${category.facts[model]}`);
+  }
+  lines.push("Instruction: answer only this category unless the user asks for a comparison.");
+  return lines.join("\n");
+}
+
+function modelKnowledgeSnippet(model) {
+  const normalized = model.toUpperCase();
+  for (const [categoryName, category] of Object.entries(productKb)) {
+    if (!category.models.includes(normalized)) continue;
+    return [
+      `PRODUCT_KB_SNIPPET type=model model=${normalized}`,
+      `Specific model reference for ${normalized}:`,
+      category.facts?.[normalized] ? `${normalized}: ${category.facts[normalized]}` : "",
+      `Category: ${categoryName}.`,
+      `Positioning: ${category.positioning}`,
+      "Instruction: answer this model first; if a spec is absent, say the current materials do not provide it.",
+    ].filter(Boolean).join("\n");
+  }
+  return "";
+}
+
+function categoryDirectAnswer(name) {
+  const category = productKb[name];
+  if (!category) return "";
+  const modelList = category.models.join("、");
+  const facts = category.models
+    .map(model => category.facts?.[model] ? `${model}：${category.facts[model]}` : "")
+    .filter(Boolean);
+  const lines = [
+    `${name} 代表型号是 ${modelList}。`,
+    `定位：${category.positioning}`,
+  ];
+  if (facts.length) lines.push(`型号要点：${facts.join("；")}`);
+  lines.push("如果您提供应用场景、接口、性能或成本要求，我可以继续帮您做具体选型。");
+  return lines.join("\n");
+}
+
+function overviewDirectAnswer() {
+  return [
+    "宇宁科技目前主要有四类产品：",
+    `1. 4G SoM：代表型号 ${productKb["4G SoM"].models.join("、")}，面向蜂窝联网、Wi-Fi/Bluetooth、GNSS、多媒体和外设接口场景。`,
+    `2. 5G SoM：代表型号 ${productKb["5G SoM"].models.join("、")}，面向高带宽、5G 连接、Wi-Fi 6、GNSS 和边缘应用。`,
+    `3. AI SoM：代表型号 ${productKb["AI SoM"].models.join("、")}，面向边缘 AI、会议、机器人、AR/VR、直播和高算力终端。`,
+    `4. WIFI SoM：代表型号 ${productKb["WIFI SoM"].models.join("、")}，面向不需要蜂窝网络、以 Wi-Fi 连接为主的 Android 智能终端。`,
+    "如果您说明应用场景、接口、算力、联网方式或成本要求，我可以进一步推荐合适型号。",
+  ].join("\n");
+}
+
+function modelDirectAnswer(model) {
+  const normalized = model.toUpperCase();
+  for (const [categoryName, category] of Object.entries(productKb)) {
+    if (!category.models.includes(normalized)) continue;
+    const fact = category.facts?.[normalized]
+      ? `核心信息：${category.facts[normalized]}`
+      : "当前事实表只确认该型号归属，详细参数需要参考对应资料表。";
+    return [
+      `${normalized} 属于 ${categoryName}。`,
+      fact,
+      `产品定位：${category.positioning}`,
+      "如果您要做选型，请继续提供应用场景、接口、性能、内存/存储或联网要求。",
+    ].join("\n");
+  }
+  return "";
+}
+
+function normalizedModelCode(text) {
+  return text.match(/\b[hm]\d{3,5}[a-z0-9]*\b/i)?.[0]?.toUpperCase() ?? "";
+}
+
+function isBroadProductQuestion(text) {
+  const compact = compactText(text).toLowerCase();
+  return /公司.*产品|产品.*(分类|类别|产品线)|有什么产品|哪些产品|还有什么产品|what.*products|company.*products/.test(compact);
+}
+
+function productKnowledgeSnippetForQuestion(text) {
+  const compact = compactText(text);
+  const lower = compact.toLowerCase();
+  const model = normalizedModelCode(compact);
+  if (model) return modelKnowledgeSnippet(model);
+  if (/wifi|wi-fi|无线/.test(lower)) return categoryKnowledgeSnippet("WIFI SoM");
+  if (/(^|[^a-z])ai([^a-z]|$)|算力|智能计算/.test(lower)) return categoryKnowledgeSnippet("AI SoM");
+  if (/5g/.test(lower)) return categoryKnowledgeSnippet("5G SoM");
+  if (/4g|蜂窝|联网/.test(lower)) return categoryKnowledgeSnippet("4G SoM");
+  if (isBroadProductQuestion(compact)) return overviewKnowledgeSnippet();
+  return "";
+}
+
+function directProductAnswerForQuestion(text) {
+  const compact = compactText(text);
+  const lower = compact.toLowerCase();
+  const model = normalizedModelCode(compact);
+  if (model) return modelDirectAnswer(model);
+  if (/wifi|wi-fi|无线/.test(lower)) return categoryDirectAnswer("WIFI SoM");
+  if (/(^|[^a-z])ai([^a-z]|$)|算力|智能计算/.test(lower)) return categoryDirectAnswer("AI SoM");
+  if (/5g/.test(lower)) return categoryDirectAnswer("5G SoM");
+  if (/4g|蜂窝|联网/.test(lower)) return categoryDirectAnswer("4G SoM");
+  if (isBroadProductQuestion(compact)) return overviewDirectAnswer();
+  return "";
+}
+
+function directProductAnswerFromBody(body, openAi) {
+  const user = openAi ? latestUserText(body.messages ?? []) : latestUserText(body.messages ?? []);
+  return directProductAnswerForQuestion(user);
+}
+
 function latestUserText(messages) {
   for (let index = messages.length - 1; index >= 0; index -= 1) {
     const message = messages[index];
@@ -376,7 +546,8 @@ function productContextFromMessages(messages, systemText = "") {
 
 function buildDlaPrompt(messages, systemText = "") {
   const user = truncateText(latestUserText(messages), maxUserChars);
-  const productContext = productContextFromMessages(messages, systemText);
+  const knowledgeContext = productKnowledgeSnippetForQuestion(user);
+  const productContext = knowledgeContext || productContextFromMessages(messages, systemText);
   const contextBlock = productContext ? "\n\n已知资料:\n" + productContext : "";
   let prompt = salesSystemPrompt + contextBlock + "\n\n用户问题:\n" + user + "\n\n请直接给出导购回答:";
 
@@ -414,6 +585,9 @@ function dynamicMaxTokensForPrompt(prompt, requestedMaxTokens) {
   const cap = Math.max(1, Math.min(Number(requestedMaxTokens) || defaultMaxTokens, defaultMaxTokens));
   const compact = compactText(prompt);
   if (compact.includes("VOICE_SHORT_REPLY")) return Math.min(cap, 224);
+  if (compact.includes("PRODUCT_KB_SNIPPET type=overview")) return Math.min(cap, 384);
+  if (compact.includes("PRODUCT_KB_SNIPPET type=category")) return Math.min(cap, 256);
+  if (compact.includes("PRODUCT_KB_SNIPPET type=model")) return Math.min(cap, 256);
   if (compact.includes("Specific model reference for")) return Math.min(cap, 256);
   if (compact.includes("MANDATORY_PRODUCT_LINE_OVERVIEW")) return Math.min(cap, 384);
   if (compact.length < 360 && !/[?锛焅？].*(鍙傛暟|瑙勬牸|瀵规瘮|璇︾粏|product|spec|compare)/i.test(compact)) {
@@ -900,11 +1074,39 @@ function streamWorker(prompt, maxTokens, res, requestId, startedAt) {
 }
 
 async function handleGenerate(req, res, body, openAi) {
-  if (active) return error(res, 429, "qwen_dla_busy", "Qwen DLA worker is already running");
-  active = true;
   const startedAt = perfNow();
   const requestId = `${startedAt}-${Math.random().toString(16).slice(2, 8)}`;
   perfLog(requestId, "request_received", startedAt, `path=${req.url ?? ""} openAi=${openAi} stream=${!!body.stream}`);
+  const directProductAnswer = directProductAnswerFromBody(body, openAi);
+  if (directProductAnswer) {
+    perfLog(requestId, "direct_product_answer", startedAt, `chars=${directProductAnswer.length} stream=${!!body.stream}`);
+    if (!!body.stream && !openAi) {
+      await writeAnthropicStream(res, directProductAnswer);
+      perfLog(requestId, "request_completed", startedAt, `mode=direct_product_stream streamedChars=${directProductAnswer.length}`);
+      return;
+    }
+    if (openAi) {
+      return json(res, 200, {
+        id: "chatcmpl-" + Date.now(),
+        object: "chat.completion",
+        created: Math.floor(Date.now() / 1000),
+        model: modelId,
+        choices: [{ index: 0, message: { role: "assistant", content: directProductAnswer }, finish_reason: "stop" }],
+        usage: { prompt_tokens: 0, completion_tokens: 0, total_tokens: 0 },
+      });
+    }
+    return json(res, 200, {
+      id: "msg_" + Date.now(),
+      type: "message",
+      role: "assistant",
+      model: modelId,
+      content: [{ type: "text", text: directProductAnswer }],
+      stop_reason: "end_turn",
+      usage: { input_tokens: 0, output_tokens: 0 },
+    });
+  }
+  if (active) return error(res, 429, "qwen_dla_busy", "Qwen DLA worker is already running");
+  active = true;
   try {
     const prompt = openAi ? promptFromOpenAi(body) : promptFromAnthropic(body);
     const requestedMaxTokens = requestedMaxTokensFromBody(body);
@@ -1014,6 +1216,9 @@ createServer(async (req, res) => {
   const path = url.pathname.replace(/^\/v1\/v1(?=\/)/, "/v1");
   if (req.method === "GET" && (path === "/models" || path === "/v1/models")) {
     return json(res, 200, { object: "list", data: [{ id: modelId, object: "model" }] });
+  }
+  if (req.method === "GET" && (path === "/health" || path === "/v1/health")) {
+    return json(res, 200, { ok: true, model: modelId, featureVersion: bridgeFeatureVersion });
   }
   if (path === "/warmup" || path === "/v1/warmup") {
     if (req.method !== "GET" && req.method !== "POST") return error(res, 404, "not_found", "Not found");
